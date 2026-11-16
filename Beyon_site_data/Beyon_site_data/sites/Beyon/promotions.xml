@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<promotions xmlns="http://www.demandware.com/xml/impex/promotion/2008-01-31">
+    <campaign campaign-id="Employee-Coupon-Campaigns">
+        <enabled-flag>true</enabled-flag>
+        <campaign-scope>
+            <applicable-online/>
+        </campaign-scope>
+        <coupons>
+            <coupon coupon-id="EMPLOYEECOUPON"/>
+            <coupon coupon-id="EMPLOYEECOUPON_NEW"/>
+        </coupons>
+    </campaign>
+
+    <campaign campaign-id="TestCampaign">
+        <enabled-flag>true</enabled-flag>
+        <campaign-scope>
+            <applicable-online/>
+        </campaign-scope>
+        <coupons>
+            <coupon coupon-id="TestCoupon"/>
+        </coupons>
+    </campaign>
+
+    <promotion promotion-id="Employee-Promotion">
+        <enabled-flag>true</enabled-flag>
+        <archived-flag>false</archived-flag>
+        <searchable-flag>false</searchable-flag>
+        <refinable-flag>false</refinable-flag>
+        <prevent-requalifying-flag>false</prevent-requalifying-flag>
+        <prorate-across-eligible-items-flag>false</prorate-across-eligible-items-flag>
+        <exclusivity>no</exclusivity>
+        <custom-attributes>
+            <custom-attribute attribute-id="isPublic">false</custom-attribute>
+        </custom-attributes>
+    </promotion>
+
+    <promotion promotion-id="TestPromotion">
+        <enabled-flag>true</enabled-flag>
+        <archived-flag>false</archived-flag>
+        <searchable-flag>true</searchable-flag>
+        <refinable-flag>false</refinable-flag>
+        <prevent-requalifying-flag>false</prevent-requalifying-flag>
+        <prorate-across-eligible-items-flag>false</prorate-across-eligible-items-flag>
+        <exclusivity>global</exclusivity>
+        <name xml:lang="x-default">Test Promotion</name>
+        <custom-attributes>
+            <custom-attribute attribute-id="isPublic">false</custom-attribute>
+        </custom-attributes>
+        <product-promotion-rule>
+            <discounted-products>
+                <included-products>
+                    <condition-group>
+                        <category-condition catalog-id="Beyon-site-catalog" operator="is equal">
+                            <category-id>by-earrings</category-id>
+                        </category-condition>
+                    </condition-group>
+                </included-products>
+            </discounted-products>
+            <simple-discount>
+                <percentage>20.0</percentage>
+            </simple-discount>
+        </product-promotion-rule>
+    </promotion>
+
+    <promotion-campaign-assignment promotion-id="Employee-Promotion" campaign-id="Employee-Coupon-Campaigns">
+        <qualifiers match-mode="all">
+            <customer-groups/>
+            <source-codes/>
+            <coupons/>
+        </qualifiers>
+    </promotion-campaign-assignment>
+
+    <promotion-campaign-assignment promotion-id="TestPromotion" campaign-id="TestCampaign">
+        <qualifiers match-mode="all">
+            <customer-groups/>
+            <source-codes/>
+            <coupons/>
+        </qualifiers>
+    </promotion-campaign-assignment>
+
+</promotions>

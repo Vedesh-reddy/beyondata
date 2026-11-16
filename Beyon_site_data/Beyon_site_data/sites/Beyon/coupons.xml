@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coupons xmlns="http://www.demandware.com/xml/impex/coupon/2008-06-17">
+    <coupon coupon-id="ANNIVERSARY500">
+        <enabled-flag>false</enabled-flag>
+        <case-insensitive>true</case-insensitive>
+        <redemption-limits>
+            <allow-multiple-codes-per-order>false</allow-multiple-codes-per-order>
+        </redemption-limits>
+        <single-code>ANNIVERSARY500</single-code>
+    </coupon>
+
+    <coupon coupon-id="EMPLOYEECOUPON">
+        <enabled-flag>true</enabled-flag>
+        <case-insensitive>true</case-insensitive>
+        <redemption-limits>
+            <limit-per-code>1</limit-per-code>
+            <limit-per-customer>1</limit-per-customer>
+            <allow-multiple-codes-per-order>false</allow-multiple-codes-per-order>
+        </redemption-limits>
+        <multiple-codes/>
+    </coupon>
+
+    <coupon coupon-id="EMPLOYEECOUPON_NEW">
+        <enabled-flag>true</enabled-flag>
+        <case-insensitive>true</case-insensitive>
+        <redemption-limits>
+            <allow-multiple-codes-per-order>false</allow-multiple-codes-per-order>
+        </redemption-limits>
+        <multiple-codes/>
+    </coupon>
+
+    <coupon coupon-id="Emp_Coupon">
+        <enabled-flag>true</enabled-flag>
+        <case-insensitive>false</case-insensitive>
+        <redemption-limits>
+            <allow-multiple-codes-per-order>false</allow-multiple-codes-per-order>
+        </redemption-limits>
+        <multiple-codes/>
+    </coupon>
+
+    <coupon coupon-id="NONSysteMultiple">
+        <enabled-flag>false</enabled-flag>
+        <case-insensitive>true</case-insensitive>
+        <redemption-limits>
+            <allow-multiple-codes-per-order>false</allow-multiple-codes-per-order>
+        </redemption-limits>
+        <multiple-codes/>
+    </coupon>
+
+    <coupon coupon-id="TestCoupon">
+        <enabled-flag>true</enabled-flag>
+        <case-insensitive>false</case-insensitive>
+        <redemption-limits>
+            <limit-per-code>1</limit-per-code>
+            <allow-multiple-codes-per-order>false</allow-multiple-codes-per-order>
+        </redemption-limits>
+        <multiple-codes/>
+    </coupon>
+
+    <coupon-codes coupon-id="EMPLOYEECOUPON">
+        <code>EMPCODE1</code>
+
+        <code>EMPCODE2</code>
+
+        <code>EMPCODE3</code>
+
+        <code>EMPCODE4</code>
+
+        <code>EMPCODE5</code>
+
+        <code>EMPCODE6</code>
+
+        <code>EMPCODE7</code>
+
+        <code>EMPCODE8</code>
+
+        <code>EMPCODE9</code>
+
+        <code>EMPCODE10</code>
+
+        <code>EMPCODE11</code>
+
+        <code>EMPCODE12</code>
+
+    </coupon-codes>
+    <coupon-codes coupon-id="EMPLOYEECOUPON_NEW">
+        <code>EMPLOYEECOUPON_NEW1</code>
+
+        <code>EMPLOYEECOUPON_NEW2</code>
+
+        <code>EMPLOYEECOUPON_NEW3</code>
+
+        <code>EMPLOYEECOUPON_NEW4</code>
+
+    </coupon-codes>
+    <coupon-codes coupon-id="Emp_Coupon">
+        <code>653782597</code>
+
+        <code>627364972</code>
+
+        <code>653482757</code>
+
+    </coupon-codes>
+    <coupon-codes coupon-id="NONSysteMultiple"/>
+    <coupon-codes coupon-id="TestCoupon">
+        <code>TEST1</code>
+
+        <code>TEST2</code>
+
+        <code>TEST3</code>
+
+        <code>TEST4</code>
+
+        <code>TEST5</code>
+
+    </coupon-codes>
+</coupons>

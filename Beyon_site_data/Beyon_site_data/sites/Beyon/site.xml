@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site xmlns="http://www.demandware.com/xml/impex/site/2007-04-30" site-id="Beyon">
+    <name>Beyon House Of Titan</name>
+    <currency>INR</currency>
+    <taxation>gross</taxation>
+    <brand>Beyon</brand>
+    <custom-cartridges>int_syte:int_tata_neu:int_edw_reports:int_google:int_overlay_Mia:bc_job_components_custom:int_leads:int_payment_overlay:int_marketing_custom:int_ups:int_golden_harvest:int_onetrust:int_oms:int_encircle:int_gold_rate:int_instagram:int_khosla_labs:int_paytm:int_qwikcilver:int_paypal:int_juspay:int_razorpay:plugin_dis:plugin_stream:plugin_omnistore:app_beyon:app_cwh:app_digigold:plugin_productcompare:int_analytics:int_litmus:int_mirrar:int_yotpo_sfra:app_titandigital_mobile_core:app_titandigital_core:utility:int_marketing_cloud:plugin_wishlists:lib_productlist:int_handlerframework:app_storefront_base</custom-cartridges>
+    <storefront-status>online</storefront-status>
+</site>
+

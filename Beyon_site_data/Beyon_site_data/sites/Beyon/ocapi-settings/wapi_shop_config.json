@@ -1,0 +1,31 @@
+{
+	"_v": "22.10",
+	"clients": [
+		{
+			"client_id": "02b41daa-2ef1-47cb-8687-dc8cf1478658",
+			"resources": [
+				{
+					"resource_id": "/order_search",
+					"methods": [
+						"post"
+					],
+					"read_attributes": "(**)",
+					"write_attributes": "(**)"
+				}
+			]
+		},
+		{
+			"client_id": "d428aa70-ecbc-4228-94ad-e1c243112192",
+			"resources": [
+				{
+					"resource_id": "/sessions",
+					"methods": [
+						"post"
+					],
+					"read_attributes": "(**)",
+					"write_attributes": "(**)"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<search xmlns="http://www.demandware.com/xml/impex/search2/2010-02-19">
+    <searchable-attributes>
+        <searchable-attribute>
+            <attribute-path>category.displayName</attribute-path>
+            <boost>2.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+        <searchable-attribute>
+            <attribute-path>product.ID</attribute-path>
+            <boost>1.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+        <searchable-attribute>
+            <attribute-path>product.brand</attribute-path>
+            <boost>2.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+        <searchable-attribute>
+            <attribute-path>product.custom.design</attribute-path>
+            <boost>1.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+        <searchable-attribute>
+            <attribute-path>product.name</attribute-path>
+            <boost>2.0</boost>
+            <auto-correction>true</auto-correction>
+        </searchable-attribute>
+    </searchable-attributes>
+
+    <stopword-list xml:lang="x-default">
+        <stopwords>a, an, and, are, as, at, be, by, for, from, in, is, it, of, on, or, that, the, to, with, about, after, all, also, any, because, but, can, could, do, each, how, if, into, its, just, like, more, most, no, not, now, other, out, over, so, some, than, then, there, these, they, this, up, was, we, were, what, when, which, who, will, you</stopwords>
+    </stopword-list>
+
+    <stopword-list xml:lang="en-IN">
+        <stopwords>a, an, and, are, as, at, be, by, for, from, in, is, it, of, on, or, that, the, to, with, about, after, all, also, any, because, but, can, could, do, each, how, if, into, its, just, like, more, most, no, not, now, other, out, over, so, some, than, then, there, these, they, this, up, was, we, were, what, when, which, who, will, you</stopwords>
+        <stopwords>platinum</stopwords>
+    </stopword-list>
+
+    <synonym-list xml:lang="x-default">
+        <synonyms>bangle, bracelet, armlet, wristlet, cuff, wristband, circlet, armband, kangana, chudi, kada</synonyms>
+        <synonyms>bracelets, braceleet, braceleeeet, braceleeett</synonyms>
+    </synonym-list>
+
+    <synonym-list xml:lang="en-IN">
+        <synonyms>bangle, bracelet, armlet, wristlet, cuff, wristband, circlet, armband, kangan, chudi, kada, churis, bengle</synonyms>
+        <synonyms>bangles, bangle, bangel, bangal, bangul, bengle, banglee, bangol, banglea, bengal, banglle, bengel, bangale, bangile, banglei, banggle, bongle, bangleo, bangleu, bengile, banglo, banglel.</synonyms>
+        <synonyms>bangles, bangle, bangel, bangal, bangul, bengle, banglee, bangol, banglea, bengal, banglle, bengel, bangale, bangile, banglei, banggle, bongle, bangleo, bangleu, bengile, banglo, banglel.</synonyms>
+        <synonyms>bracelet, braclet, bracelt, bracalet, braclete, bracelat, bracalet, braslet, bracelit, braselet, bracelate, brecelet, braclets, braselet, bracellate, bracellet, bracelete, bracelett, bracellt, braclett, brazelet</synonyms>
+        <synonyms>chain, chaines, chian, chane, chians, chanes, chianes, chaon, chaain, chianes, chayne, chians, chayne, chaens, chainds, chaiin, chayns, chians, chaens, chaynes, chaeins</synonyms>
+        <synonyms>cross, holy cross, trinity cross, cross pendant, cros, christian, christ, god, jesus</synonyms>
+        <synonyms>drop earrings, dangle earrings, chandelier earrings, pendant earrings, teardrop earrings, dangly earrings, hanging earrings, long earrings, swing earrings, shoulder duster earrings, threader earrings, jhumki, jhumko, buttalu, zumka, magar, kundal</synonyms>
+        <synonyms>earring, earrings, earringg, earrng, earing, earign, eering, earinng, earrring, eareing, earriing, errarng, earcuff</synonyms>
+        <synonyms>emerald, panna, emerld, emarld, green, beryl, forest, jade, kelly, lime, moss, olive, greenish, viridescent, olive green, pea green, emerald green, turquoise, emereld, emrald, emerld, emarald, emmerald, emeral, emerauld, emeraulde, emmereld, emmeral, pana, panna, pannah, panaah, panaa, panah, panha, panhaa, pannaa, pannha</synonyms>
+        <synonyms>evil eye, evileye, eveleye, nazar, drishti, evil eye amulet, blue eye, evil eye charm, evil eye, evil i, evileye, evile i, evileye, evile i, evileye, evile i, evileye, evile i</synonyms>
+        <synonyms>festive jewellery, navaratri jewellery, festival, diwali jewellery, dhanteras</synonyms>
+        <synonyms>hoop earrings, hoop baliyan, valai kaadhanigal, hoop chevipogulu, hoop kiviolegalu, hoop kaner dul, hoop kanatle, hoop kan na dora, hoop baliyan, hoop kathil</synonyms>
+        <synonyms>jhumka, jumka, round drop, danglers, chandbali, drop earrings, ear pendants, ear drops, dangle earrings, jhumki, chandelier earrings, bali earrings</synonyms>
+        <synonyms>lord rama, ram, rama, ramlala, god, ramdhanush, dhanush, archery, bhagwan, jai shree ram, jai sri ram, jay shri ram, hanuman, bajrangbali</synonyms>
+        <synonyms>maa durga, durga, shakti, adi shakti, god, parvati, kali, shakti, bhavani, chandi, mahadevi, gauri, durgah, durgha, duga, durg, durgra, durgga, durgahh, durgahh, durgah, trishul, trisul, tresul, treshul, bhagwan</synonyms>
+        <synonyms>mia symphony, music notes, music note, music jewellery, jewellery music, musicnote, music note jewelry, music note jewellery</synonyms>
+        <synonyms>necklace, necklase, neclace, nacklace, neckless, neckles, necklasee, nekclace, necklce, necklac, necklas, nacklas, neklace, necklae, nekclace, neckalece, necklacce, necklese, neckelace, necklacr, necklacw</synonyms>
+        <synonyms>nose pin, nosepins, nosering, noseing, nozpin, nozepin, nospin, nossepin, nospen, nospein, nosepen, nosepinne, nospinne, nosspen, nosepn, noespin, nossepine, nospine, nospean, nosepein, nath, mookuthi, mukkupudaka, nathani</synonyms>
+        <synonyms>pendant, pendants, pendent, pendnat, pendent, pendat, pendent, pendent, pendent, pendent, pendent, pendent, pendent, pendent, pendent, pendent, pendent, pendent, pendent, pendent, pendent, pendent</synonyms>
+        <synonyms>ring, rings, finger ring, fingerrings, fingerring, rnig, rign, reng, ringe, rig, rng, ryng, riing, rinn, rring, ringg, raing, reing, rung, rimg, ringh, ringn, riong, rind, fingar ring, fingre ring, finger rign, finger rng, figner ring, figer ring, phinger ring, finger raing, finger rig, finger rong, ring, rings, finger ring, fingerrings, fingerring</synonyms>
+        <synonyms>rings for men, men's ring, mens, men ring, men, mens ring, men rings, rings for men, mens, ring men, mens rings, for men, men jewellery, gold ring for men, rings men, men gold ring, men collection, man ring, men's, ring for man, men's rings, men engagement ring, men band, mens collection, mens diamond ring, men jwellery</synonyms>
+        <synonyms>sacred om, om, aum, oom, auum, omm, shiva, shiv, mahadev, god, bhagwan</synonyms>
+        <synonyms>shiva, shiv, mahadeva, mahadev, shankar, bholenath, rudra, mahesh, trishul, trasul, god, sacred om, om, aum, oom, auum, bhagwan</synonyms>
+        <synonyms>shree ganesh, ganapati, vinayaka, gajanana, ganesh, ganasha, ganes, ganesa, ganehsa, ganeesha, ganisha, gansha, ganeh, ganeesh, god, bhagwan</synonyms>
+        <synonyms>stud earrings, stud baliyan, mul kaadhanigal, stud chevipogulu, stud kiviolegalu, stud kaner dul, stud kanatle, stud kan na dora, stud baliyan, stud kathil</synonyms>
+        <synonyms>toe rings, toering, toerings, toe ring, toe ring, foot ring, toe band, toe jewelry, toe accessory, toe ornament, toe band, toe adornment, toe decoration, toe trinket, bichiya, metti, mettelu, kalungura, jodavi, minji, bichwe, toering, toe ring, toering, toering, toering, toering, toering, toering, toering, toering, bichia</synonyms>
+        <synonyms>venkateswara, srinivasa, govinda, venkatachalapati, tirupati balaji, venkataramana, venkata, tirupati balaji, balaji shankh chakra namah, venkatesh, venkataraman, venkateshwar, venkateshwarar, venkateshwaraya, venkateshwarulu, venkateshwarudu, venkateshwaran, venkateshwarappa, venkateshwarananda, venkateshwaraswamy, venkateshwararaya, venkateshwararaju, god, bhagwan</synonyms>
+        <synonyms>wanderlust, wonder, wander</synonyms>
+    </synonym-list>
+
+    <common-phrase-list xml:lang="en">
+        <common-phrases match-mode="last-word-match">nose pin, nose pin, nose ring, nose rign, nose rng, nos ring, nosre ring, noes ring, nose riing, nose ringg, nose rong, nose rinh, nsoe ring, nose rigng, nsoe rng, nose rin, noe ring, nose riing, noze ring, mugina kivi, nakk di pinn, nos pin, nosre pin, noes pin, nose pinn</common-phrases>
+        <common-phrases match-mode="last-word-match">pendant with chain, pendent with chain, pandant with chain, pendand with chain, pendnt with chain, pendant wit chain, pendant with chan, pendnat with chain, pendat with chain, pendand with chain, pandent with chain, penant with chain, pendan with chain, pendamt with chain, pendont with chain, penndant with chain, pennant with chain, pendamt with chain, penadant with chain, pendamt with cahin, pendamt wit chain</common-phrases>
+    </common-phrase-list>
+
+    <common-phrase-list xml:lang="en-IN">
+        <common-phrases match-mode="last-word-match">nose pin, nose pin, nose ring, nose rign, nose rng, nos ring, nosre ring, noes ring, nose riing, nose ringg, nose rong, nose rinh, nsoe ring, nose rigng, nsoe rng, nose rin, noe ring, nose riing, noze ring, mugina kivi, nakk di pinn, nos pin, nosre pin, noes pin, nose pinn</common-phrases>
+        <common-phrases match-mode="last-word-match">pendant with chain, pendent with chain, pandant with chain, pendand with chain, pendnt with chain, pendant wit chain, pendant with chan, pendnat with chain, pendat with chain, pendand with chain, pandent with chain, penant with chain, pendan with chain, pendamt with chain, pendont with chain, penndant with chain, pennant with chain, pendamt with chain, penadant with chain, pendamt with cahin, pendamt wit chain</common-phrases>
+    </common-phrase-list>
+
+    <index-settings>
+        <full-reindexing-schedule>
+            <date-from>2023-01-18Z</date-from>
+            <start-time>11:29:00.000Z</start-time>
+            <factor>1</factor>
+            <unit>days</unit>
+        </full-reindexing-schedule>
+        <full-reindexing-enabled>
+            <index-type>product</index-type>
+        </full-reindexing-enabled>
+        <incremental-reindexing-enabled>
+            <index-type>product</index-type>
+        </incremental-reindexing-enabled>
+        <indexed-locales>
+            <locale>en-IN</locale>
+            <locale>en</locale>
+        </indexed-locales>
+        <stemming xml:lang="en-IN">English</stemming>
+        <stemming xml:lang="en">English</stemming>
+    </index-settings>
+
+</search>

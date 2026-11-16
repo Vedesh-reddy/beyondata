@@ -1,0 +1,2581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<slot-configurations xmlns="http://www.demandware.com/xml/impex/slot/2008-09-08">
+    <slot-configuration slot-id="mobile-menu-slot" context="global" configuration-id="500-Off" default="true" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainerSmall.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="col-12 pl-3 pr-0 pt-2"&gt;
+    &lt;p class="text-header-menu-1 m-0"&gt;Rs 500 off&lt;/p&gt;
+    &lt;p class="text-header-menu-2 pt-1"&gt;on first order&lt;/p&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+        <customer-groups>
+            <customer-group group-id="Unregistered"/>
+        </customer-groups>
+    </slot-configuration>
+
+    <slot-configuration slot-id="sell-digigold-popup-slot" context="global" configuration-id="Configuration-DigiGold-Reminder-Popup" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainerSmall.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="modal fade digigold-reminder" data-backdrop="static" data-keyboard="false" id="digiGoldReminder" tabindex="-1"&gt;
+&lt;div class="modal-dialog modal-dialog-centered"&gt;
+&lt;div class="modal-content"&gt;
+&lt;div class="modal-body"&gt;&lt;button aria-label="Close" class="close" data-dismiss="modal" type="button"&gt;&lt;span aria-hidden="true"&gt;&amp;times;&lt;/span&gt;&lt;/button&gt;
+&lt;div class="digigold-reminder-detail"&gt;
+&lt;div class="image-content"&gt;&lt;img alt="digi-gold-reminder" src="images/digiGoldReminderBanner.png?$staticlink$" title="" /&gt;&lt;/div&gt;
+
+&lt;div class="text-content"&gt;
+&lt;p&gt;Get &lt;b&gt;Additional 3%*&lt;/b&gt; discount while redeeming your DigiGold with Tanishq&lt;/p&gt;
+&lt;a class="btn primary-btn" href="$url('Search-Show','cgid','tq-all-jewellery')$"&gt;Shop now&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="gift-noresult-carousel" context="global" configuration-id="GiftNoResult" assigned-to-site="true">
+        <template>slots/product/showsimilar.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <products>
+                <product product-id="a14019xrzaaa37"/>
+                <product product-id="a14019htqaaa37"/>
+                <product product-id="a14019pufaaa37"/>
+                <product product-id="a14019suiaaa88"/>
+            </products>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="DigiGoldFAQ" context="global" configuration-id="New Slot Configuration - 2023-01-20 15:54:51" default="true" assigned-to-site="true">
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="DigiGoldFaqTab1"/>
+                <content-asset content-id="DigiGoldFaqTab2"/>
+                <content-asset content-id="DigiGoldFaqTab3"/>
+                <content-asset content-id="DigiGoldFaqTab4"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="shopbycategory" context="global" configuration-id="New Slot Configuration - 2023-01-28 13:02:33" default="true" assigned-to-site="true">
+        <template>slots/category/miashopbycategorytile.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <callout-msg xml:lang="x-default">&lt;p&gt;Shop By Category&lt;/p&gt;</callout-msg>
+        <content>
+            <categories>
+                <category category-id="mi-all-earrings"/>
+                <category category-id="mi-pendants"/>
+                <category category-id="mi-finger-rings"/>
+                <category category-id="mi-necklaces"/>
+                <category category-id="mi-bangles"/>
+                <category category-id="mi-bracelets"/>
+                <category category-id="mi-coins"/>
+                <category category-id="mi-mangalsutra"/>
+                <category category-id="mi-chains"/>
+            </categories>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="shopbygender" context="global" configuration-id="New Slot Configuration - 2023-01-28 13:06:31" default="true" assigned-to-site="true">
+        <template>slots/category/shopbycategorytile.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <callout-msg xml:lang="x-default">&lt;p&gt;Shop By Gender&lt;/p&gt;</callout-msg>
+        <content>
+            <categories>
+                <category category-id="tq-kids-jewellery"/>
+                <category category-id="tq-mens-jewellery"/>
+                <category category-id="tq-womens-jewellery"/>
+            </categories>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plp-recommendation" context="global" configuration-id="New Slot Configuration - 2023-02-11 17:00:51" default="true" assigned-to-site="true">
+        <description>Slot to show recenlty viewed product to customer</description>
+        <template>slots/recommendation/plp.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <recommended-products recommendation-rule-id="recently-viewed"/>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="mi-all-earrings" configuration-id="New Slot Configuration - 2024-10-15 16:41:09" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/joy-of-gifting';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Upto 20% off* on diamond jewellery &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Offer applies at checkout &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Click here to shop! &lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4mbl" context="category" context-id="mi-all-earrings" configuration-id="New Slot Configuration - 2024-10-15 16:45:27" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/joy-of-gifting';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Upto 20% off* on diamond jewellery  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Offer applies at checkout &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Click here to shop!&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="mi-festive-jewellery" configuration-id="New Slot Configuration - 2024-10-15 17:29:57" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;style&gt;
+	.plp-banner-scroll.watermark-bg-global::before{
+	z-index: 0!important;
+	}
+&lt;/style&gt;
+
+&lt;div class="plp-banner-scroll watermark-bg-global"&gt;
+	&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;a href="$url('Search-Show','cgid','mi-festive-jewellery')$" class="redirect-link"&gt;
+&lt;span class="banner-content"&gt;Shine on with up to 20% off* ! &lt;/span&gt;
+&lt;/a&gt;
+
+	&lt;/div&gt;
+	&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;a href="$url('Search-Show','cgid','mi-festive-jewellery')$" class="redirect-link"&gt;
+&lt;span class="banner-content"&gt;Offer applies directly in cart &lt;/span&gt;
+&lt;/a&gt;
+
+	&lt;/div&gt;
+	&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;a href="$url('Search-Show','cgid','mi-festive-jewellery')$" class="redirect-link"&gt;
+&lt;span class="banner-content"&gt;Click here to shop now!&lt;/span&gt;
+&lt;/a&gt;
+
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;script src="https://code.jquery.com/jquery-3.6.0.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+
+ $('body').on('click', '#banner', function () {
+        const newUrl = $('#banner').val();
+        window.location.href = newUrl;
+    });
+&lt;/script&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4mbl" context="category" context-id="mi-festive-jewellery" configuration-id="New Slot Configuration - 2024-10-15 17:30:50" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;style&gt;
+	.plp-banner-scroll.watermark-bg-global::before{
+	z-index: 0!important;
+	}
+&lt;/style&gt;
+
+&lt;div class="plp-banner-scroll plp-banner-mobile-carousel
+  watermark-bg-global"&gt;
+	&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;a href="$url('Search-Show','cgid','mi-festive-jewellery')$" class="redirect-link"&gt;
+&lt;span class="banner-content"&gt;Shine on with up to 20% off* !&lt;/span&gt;
+&lt;/a&gt;
+
+	&lt;/div&gt;
+	&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;a href="$url('Search-Show','cgid','mi-festive-jewellery')$" class="redirect-link"&gt;
+&lt;span class="banner-content"&gt;Offer applies directly in cart&lt;/span&gt;
+&lt;/a&gt;
+
+	&lt;/div&gt;
+	&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;a href="$url('Search-Show','cgid','mi-festive-jewellery')$" class="redirect-link"&gt;
+&lt;span class="banner-content"&gt;Click here to shop now! &lt;/span&gt;
+&lt;/a&gt;
+
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;script src="https://code.jquery.com/jquery-3.6.0.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+
+ $('body').on('click', '#banner', function () {
+        const newUrl = $('#banner').val();
+        window.location.href = newUrl;
+    });
+&lt;/script&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="mi-festive-jewellery" configuration-id="New Slot Configuration - 2024-10-15 17:32:52" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="container-gold-exchange col-6 pr-lg-0" data-gtmid="gift_golden_memories" data-gtmname="Gift Golden Memories"&gt;
+    &lt;a href="$url('Search-Show','cgid', 'mi-festive-jewellery')$" class="redirect-link"&gt;
+    &lt;div class="gold-exchange-programme"&gt;
+      &lt;picture&gt;
+        &lt;source media="(min-width: 992px)" srcset="images/plp/espot.jpg?$staticlink$"&gt;
+        &lt;source media="(max-width: 991px)" srcset="images/plp/espot.jpg?$staticlink$"&gt;
+        &lt;img class="gold-banner-image" alt="Image not found" src="images/plp/espot.jpg?$staticlink$"&gt;
+      &lt;/picture&gt;
+    &lt;/div&gt;
+  &lt;/a&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner2" context="category" context-id="mi-festive-jewellery" configuration-id="New Slot Configuration - 2024-10-15 17:46:45" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;style&gt; @media screen and (max-width: 992px) {
+    .product-plp-grid-inner .all-for-her .all-for-her-inner img.all-image {
+        height: auto !important;
+    }
+} &lt;/style&gt;
+&lt;div class="all-for-her pr-lg-0 "  data-gtmid="gold_exchange_program" data-gtmname="Gold Exhange Program"&gt;
+&lt;a href="$url('Search-Show','cgid','mi-gifting-under-10k')$" class="redirect-link" &gt;
+    &lt;div class="all-for-her-inner"&gt;
+        &lt;img class="all-image" alt="Image not found" src="images/plp/gifting-under-10K-new.jpg?$staticlink$" /&gt;
+        &lt;div class="all-for-her-inner-txt"&gt;
+            &lt;div class="all-for-her-inner-sec"&gt;
+                &lt;div class="banner-heading-afr col-4 col-sm-3"&gt;
+                    &lt;br /&gt;
+ 
+                &lt;/div&gt;
+                &lt;div class="afr-desc all-for-her col-8 col-sm-9"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner3" context="category" context-id="mi-festive-jewellery" configuration-id="New Slot Configuration - 2024-10-15 17:51:55" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="d-none d-lg-block"&gt;&lt;img alt="" class="plp-top-banner" src="images/plp/festive-jew-desk.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;
+&lt;p class="d-lg-none d-block"&gt;&lt;img alt="" class="plp-top-banner" src="images/plp/festive-jewellery-plp.png?$staticlink$" title="" /&gt;&lt;/p&gt;
+&lt;style&gt; 
+.category-grid-banner .plp-top-banner {
+   height: 100% !important;
+}
+&lt;/style&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="mi-all-jewellery" configuration-id="New Slot Configuration - 2024-10-17 10:19:03" assigned-to-site="true">
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="plpBanner1"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner2" context="category" context-id="mi-all-jewellery" configuration-id="New Slot Configuration - 2024-10-17 10:23:30" assigned-to-site="true">
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="plpBanner2"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="mi-all-jewellery" configuration-id="New Slot Configuration - 2024-10-17 10:24:43" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/joy-of-gifting';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Upto 20% off* on diamond jewellery &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Offer applies at checkout &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Click here to shop! &lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4mbl" context="category" context-id="mi-all-jewellery" configuration-id="New Slot Configuration - 2024-10-17 10:32:28" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/joy-of-gifting';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Upto 20% off* on diamond jewellery  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Offer applies at checkout &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Click here to shop!&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="mi-all-earrings" configuration-id="New Slot Configuration - 2024-10-17 13:11:28" assigned-to-site="true">
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="plpBanner1"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner2" context="category" context-id="mi-all-earrings" configuration-id="New Slot Configuration - 2024-10-17 13:25:58" assigned-to-site="true">
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="plpBanner2"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="mi-pendants" configuration-id="New Slot Configuration - 2024-10-21 17:25:23" assigned-to-site="true">
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="plpBanner1"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner2" context="category" context-id="mi-pendants" configuration-id="New Slot Configuration - 2024-10-21 17:34:59" assigned-to-site="true">
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="plpBanner2"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="mi-pendants" configuration-id="New Slot Configuration - 2024-10-21 17:36:34" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/joy-of-gifting';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Upto 20% off* on diamond jewellery &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Offer applies at checkout &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Click here to shop! &lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4mbl" context="category" context-id="mi-pendants" configuration-id="New Slot Configuration - 2024-10-21 17:48:13" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/joy-of-gifting';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Upto 20% off* on diamond jewellery  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Offer applies at checkout &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Click here to shop!&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="mi-disco" configuration-id="New Slot Configuration - 2024-10-24 18:50:04" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="container-gold-exchange col-6 pr-lg-0" data-gtmid="gift_golden_memories" data-gtmname="Gift Golden Memories"&gt;
+    &lt;a href="$url('Search-Show','cgid', 'mi-festive-jewellery', 'sytePage', 'tourPage')$" class="redirect-link"&gt;
+    &lt;div class="gold-exchange-programme"&gt;
+      &lt;picture&gt;
+        &lt;source media="(min-width: 992px)" srcset="images/plp/espot.jpg?$staticlink$"&gt;
+        &lt;source media="(max-width: 991px)" srcset="images/plp/espot.jpg?$staticlink$"&gt;
+        &lt;img class="gold-banner-image" alt="Image not found" src="images/plp/espot.jpg?$staticlink$"&gt;
+      &lt;/picture&gt;
+    &lt;/div&gt;
+  &lt;/a&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner2" context="category" context-id="mi-disco" configuration-id="New Slot Configuration - 2024-10-24 18:51:10" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;style&gt; @media screen and (max-width: 992px) {
+    .product-plp-grid-inner .all-for-her .all-for-her-inner img.all-image {
+        height: auto !important;
+    }
+} &lt;/style&gt;
+&lt;div class="all-for-her pr-lg-0 "  data-gtmid="gold_exchange_program" data-gtmname="Gold Exhange Program"&gt;
+&lt;a href="$url('Search-Show','cgid','mi-gifting-under-10k')$" class="redirect-link" &gt;
+    &lt;div class="all-for-her-inner"&gt;
+        &lt;img class="all-image" alt="Image not found" src="images/plp/gifting-under-10K-new.jpg?$staticlink$" /&gt;
+        &lt;div class="all-for-her-inner-txt"&gt;
+            &lt;div class="all-for-her-inner-sec"&gt;
+                &lt;div class="banner-heading-afr col-4 col-sm-3"&gt;
+                    &lt;br /&gt;
+ 
+                &lt;/div&gt;
+                &lt;div class="afr-desc all-for-her col-8 col-sm-9"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="mi-disco" configuration-id="New Slot Configuration - 2024-10-24 18:52:20" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/black-friday-frenzy-sale';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Black Friday Sale is Live &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Buy 1 &amp; get 50% off* on making charges &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Buy 2 or More &amp; get 100% off* on making charges &lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4mbl" context="category" context-id="mi-disco" configuration-id="New Slot Configuration - 2024-10-24 18:53:04" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;style&gt;
+	.plp-banner-scroll.watermark-bg-global::before{
+	z-index: 0!important;
+	}
+&lt;/style&gt;
+
+&lt;div class="plp-banner-scroll plp-banner-mobile-carousel
+  watermark-bg-global"&gt;
+	&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;a href="$url('Search-Show','cgid','mi-black-friday-frenzy-sale')$" class="redirect-link"&gt;
+&lt;span class="banner-content"&gt;Black Friday Sale is Live &lt;/span&gt;
+&lt;/a&gt;
+
+	&lt;/div&gt;
+	&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;a href="$url('Search-Show','cgid','mi-black-friday-frenzy-sale')$" class="redirect-link"&gt;
+&lt;span class="banner-content"&gt;Buy 1 &amp; get 50% off* on making charges&lt;/span&gt;
+&lt;/a&gt;
+
+	&lt;/div&gt;
+	&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;a href="$url('Search-Show','cgid','mi-black-friday-frenzy-sale')$" class="redirect-link"&gt;
+&lt;span class="banner-content"&gt;Buy 2 or More &amp; get 100% off* on making charges  &lt;/span&gt;
+&lt;/a&gt;
+
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;script src="https://code.jquery.com/jquery-3.6.0.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+
+ $('body').on('click', '#banner', function () {
+        const newUrl = $('#banner').val();
+        window.location.href = newUrl;
+    });
+&lt;/script&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner3" context="category" context-id="mi-disco" configuration-id="New Slot Configuration - 2024-10-24 18:53:38" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="d-none d-lg-block"&gt;&lt;img alt="" class="plp-top-banner" src="images/plp/zeenat-disco-plp-web.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;
+&lt;p class="d-lg-none d-block"&gt;&lt;img alt="" class="plp-top-banner" src="images/plp/zeenat-disco-plp-mobile.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;
+&lt;style&gt; 
+.category-grid-banner .plp-top-banner {
+   height: 100% !important;
+}
+&lt;/style&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner3" context="category" context-id="mi-coins" configuration-id="New Slot Configuration - 2024-10-28 22:01:17" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="d-none d-lg-block"&gt;&lt;img alt="" class="plp-top-banner" src="images/plp/web-espot-desktop-banner.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;
+&lt;p class="d-lg-none d-block"&gt;&lt;img alt="" class="plp-top-banner" src="images/plp/web-espot-mobile-banner.png?$staticlink$" title="" /&gt;&lt;/p&gt;
+&lt;style&gt; 
+.category-grid-banner .plp-top-banner {
+   height: 100% !important;
+}
+&lt;/style&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="mi-finger-rings" configuration-id="New Slot Configuration - 2024-11-24 10:47:19" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/joy-of-gifting';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Upto 20% off* on diamond jewellery &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Offer applies at checkout &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Click here to shop! &lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4mbl" context="category" context-id="mi-finger-rings" configuration-id="New Slot Configuration - 2024-11-24 10:48:03" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/joy-of-gifting';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Upto 20% off* on diamond jewellery  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Offer applies at checkout &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Click here to shop!&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner3" context="category" context-id="mi-black-friday-frenzy" configuration-id="New Slot Configuration - 2024-11-26 19:21:43" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="d-none d-lg-block"&gt;&lt;img alt="" class="plp-top-banner" src="images/plp/espot-banner-desktop-blackfriday.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;
+&lt;p class="d-lg-none d-block"&gt;&lt;img alt="" class="plp-top-banner" src="images/plp/espot-banner-mobile-blackfriday.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;
+&lt;style&gt; 
+.category-grid-banner .plp-top-banner {
+   height: 100% !important;
+}
+&lt;/style&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner3" context="category" context-id="mi-all-jewellery" configuration-id="New Slot Configuration - 2024-11-27 12:41:31" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="d-none d-lg-block"&gt;&lt;img alt="" class="plp-top-banner" src="images/plp/bff-desk.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;
+&lt;p class="d-lg-none d-block"&gt;&lt;img alt="" class="plp-top-banner" src="images/plp/bff-mobile.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;
+&lt;style&gt; 
+.category-grid-banner .plp-top-banner {
+   height: 100% !important;
+}
+&lt;/style&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="mi-gifting-range" configuration-id="New Slot Configuration - 2024-11-27 21:27:56" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/black-friday-frenzy-sale';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Black Friday Sale is Live &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Buy 1 &amp; get 50% off* on making charges &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Buy 2 or More &amp; get 100% off* on making charges &lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4mbl" context="category" context-id="mi-silver-jewellery" configuration-id="New Slot Configuration - 2024-11-27 21:38:12" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;style&gt;
+	.plp-banner-scroll.watermark-bg-global::before{
+	z-index: 0!important;
+	}
+&lt;/style&gt;
+
+&lt;div class="plp-banner-scroll plp-banner-mobile-carousel
+  watermark-bg-global"&gt;
+	&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;a href="$url('Search-Show','cgid','mi-black-friday-frenzy-sale')$" class="redirect-link"&gt;
+&lt;span class="banner-content"&gt;Black Friday Sale is Live &lt;/span&gt;
+&lt;/a&gt;
+
+	&lt;/div&gt;
+	&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;a href="$url('Search-Show','cgid','mi-black-friday-frenzy-sale')$" class="redirect-link"&gt;
+&lt;span class="banner-content"&gt;Buy 1 &amp; get 50% off* on making charges&lt;/span&gt;
+&lt;/a&gt;
+
+	&lt;/div&gt;
+	&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;a href="$url('Search-Show','cgid','mi-black-friday-frenzy-sale')$" class="redirect-link"&gt;
+&lt;span class="banner-content"&gt;Buy 2 or More &amp; get 100% off* on making charges  &lt;/span&gt;
+&lt;/a&gt;
+
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;script src="https://code.jquery.com/jquery-3.6.0.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+
+ $('body').on('click', '#banner', function () {
+        const newUrl = $('#banner').val();
+        window.location.href = newUrl;
+    });
+&lt;/script&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4mbl" context="category" context-id="mi-gifting-range" configuration-id="New Slot Configuration - 2024-11-27 21:39:32" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;style&gt;
+	.plp-banner-scroll.watermark-bg-global::before{
+	z-index: 0!important;
+	}
+&lt;/style&gt;
+
+&lt;div class="plp-banner-scroll plp-banner-mobile-carousel
+  watermark-bg-global"&gt;
+	&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;a href="$url('Search-Show','cgid','mi-black-friday-frenzy-sale')$" class="redirect-link"&gt;
+&lt;span class="banner-content"&gt;Black Friday Sale is Live &lt;/span&gt;
+&lt;/a&gt;
+
+	&lt;/div&gt;
+	&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;a href="$url('Search-Show','cgid','mi-black-friday-frenzy-sale')$" class="redirect-link"&gt;
+&lt;span class="banner-content"&gt;Buy 1 &amp; get 50% off* on making charges&lt;/span&gt;
+&lt;/a&gt;
+
+	&lt;/div&gt;
+	&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;a href="$url('Search-Show','cgid','mi-black-friday-frenzy-sale')$" class="redirect-link"&gt;
+&lt;span class="banner-content"&gt;Buy 2 or More &amp; get 100% off* on making charges  &lt;/span&gt;
+&lt;/a&gt;
+
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;script src="https://code.jquery.com/jquery-3.6.0.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+
+ $('body').on('click', '#banner', function () {
+        const newUrl = $('#banner').val();
+        window.location.href = newUrl;
+    });
+&lt;/script&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="mi-rings-for-men" configuration-id="New Slot Configuration - 2024-11-27 22:12:46" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/black-friday-frenzy-sale';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Black Friday Sale is Live &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Buy 1 &amp; get 50% off* on making charges &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Buy 2 or More &amp; get 100% off* on making charges &lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4mbl" context="category" context-id="mi-rings-for-men" configuration-id="New Slot Configuration - 2024-11-27 22:12:52" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;style&gt;
+	.plp-banner-scroll.watermark-bg-global::before{
+	z-index: 0!important;
+	}
+&lt;/style&gt;
+
+&lt;div class="plp-banner-scroll plp-banner-mobile-carousel
+  watermark-bg-global"&gt;
+	&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;a href="$url('Search-Show','cgid','mi-black-friday-frenzy-sale')$" class="redirect-link"&gt;
+&lt;span class="banner-content"&gt;Black Friday Sale is Live &lt;/span&gt;
+&lt;/a&gt;
+
+	&lt;/div&gt;
+	&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;a href="$url('Search-Show','cgid','mi-black-friday-frenzy-sale')$" class="redirect-link"&gt;
+&lt;span class="banner-content"&gt;Buy 1 &amp; get 50% off* on making charges&lt;/span&gt;
+&lt;/a&gt;
+
+	&lt;/div&gt;
+	&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;a href="$url('Search-Show','cgid','mi-black-friday-frenzy-sale')$" class="redirect-link"&gt;
+&lt;span class="banner-content"&gt;Buy 2 or More &amp; get 100% off* on making charges  &lt;/span&gt;
+&lt;/a&gt;
+
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;script src="https://code.jquery.com/jquery-3.6.0.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+
+ $('body').on('click', '#banner', function () {
+        const newUrl = $('#banner').val();
+        window.location.href = newUrl;
+    });
+&lt;/script&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="mi-silver-jewellery" configuration-id="New Slot Configuration - 2024-11-27 22:18:17" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;style&gt;
+	.plp-banner-scroll.watermark-bg-global::before{
+	z-index: 0!important;
+	}
+&lt;/style&gt;
+
+&lt;div class="plp-banner-scroll plp-banner-mobile-carousel
+  watermark-bg-global"&gt;
+	&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;a href="$url('Search-Show','cgid','mi-black-friday-frenzy-sale')$" class="redirect-link"&gt;
+&lt;span class="banner-content"&gt;Black Friday Sale is Live &lt;/span&gt;
+&lt;/a&gt;
+
+	&lt;/div&gt;
+	&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;a href="$url('Search-Show','cgid','mi-black-friday-frenzy-sale')$" class="redirect-link"&gt;
+&lt;span class="banner-content"&gt;Buy 1 &amp; get 50% off* on making charges&lt;/span&gt;
+&lt;/a&gt;
+
+	&lt;/div&gt;
+	&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;a href="$url('Search-Show','cgid','mi-black-friday-frenzy-sale')$" class="redirect-link"&gt;
+&lt;span class="banner-content"&gt;Buy 2 or More &amp; get 100% off* on making charges  &lt;/span&gt;
+&lt;/a&gt;
+
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;script src="https://code.jquery.com/jquery-3.6.0.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+
+ $('body').on('click', '#banner', function () {
+        const newUrl = $('#banner').val();
+        window.location.href = newUrl;
+    });
+&lt;/script&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="mi-homecoming" configuration-id="New Slot Configuration - 2024-11-27 22:23:46" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/black-friday-frenzy-sale';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Black Friday Sale is Live &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Buy 1 &amp; get 50% off* on making charges &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Buy 2 or More &amp; get 100% off* on making charges &lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4mbl" context="category" context-id="mi-homecoming" configuration-id="New Slot Configuration - 2024-11-27 22:24:22" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;style&gt;
+	.plp-banner-scroll.watermark-bg-global::before{
+	z-index: 0!important;
+	}
+&lt;/style&gt;
+
+&lt;div class="plp-banner-scroll plp-banner-mobile-carousel
+  watermark-bg-global"&gt;
+	&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;a href="$url('Search-Show','cgid','mi-black-friday-frenzy-sale')$" class="redirect-link"&gt;
+&lt;span class="banner-content"&gt;Black Friday Sale is Live &lt;/span&gt;
+&lt;/a&gt;
+
+	&lt;/div&gt;
+	&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;a href="$url('Search-Show','cgid','mi-black-friday-frenzy-sale')$" class="redirect-link"&gt;
+&lt;span class="banner-content"&gt;Buy 1 &amp; get 50% off* on making charges&lt;/span&gt;
+&lt;/a&gt;
+
+	&lt;/div&gt;
+	&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;a href="$url('Search-Show','cgid','mi-black-friday-frenzy-sale')$" class="redirect-link"&gt;
+&lt;span class="banner-content"&gt;Buy 2 or More &amp; get 100% off* on making charges  &lt;/span&gt;
+&lt;/a&gt;
+
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;script src="https://code.jquery.com/jquery-3.6.0.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+
+ $('body').on('click', '#banner', function () {
+        const newUrl = $('#banner').val();
+        window.location.href = newUrl;
+    });
+&lt;/script&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="mi-black-friday-frenzy-sale" configuration-id="New Slot Configuration - 2024-11-27 22:28:04" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/black-friday-frenzy-sale';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Black Friday Sale is Live &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Buy 1 &amp; get 50% off* on making charges &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Buy 2 or More &amp; get 100% off* on making charges &lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4mbl" context="category" context-id="mi-black-friday-frenzy-sale" configuration-id="New Slot Configuration - 2024-11-27 22:28:33" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/black-friday-frenzy-sale';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Black Friday Sale is Live &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Buy 1 &amp; get 50% off* on making charges &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Buy 2 or More &amp; get 100% off* on making charges &lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner3" context="category" context-id="mi-black-friday-frenzy-sale" configuration-id="New Slot Configuration - 2024-11-28 19:54:06" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="d-none d-lg-block"&gt;&lt;img alt="" class="plp-top-banner" src="images/plp/bff-desk.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;
+&lt;p class="d-lg-none d-block"&gt;&lt;img alt="" class="plp-top-banner" src="images/plp/bff-mobile.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;
+&lt;style&gt; 
+.category-grid-banner .plp-top-banner {
+   height: 100% !important;
+}
+&lt;/style&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="mi-black-friday-frenzy-sale" configuration-id="New Slot Configuration - 2024-11-28 20:04:46" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="container-gold-exchange col-6 pr-lg-0" data-gtmid="gift_golden_memories" data-gtmname="Gift Golden Memories"&gt;
+    &lt;a href="$url('Search-Show','cgid', 'mi-black-friday-frenzy-sale', 'sytePage', 'tourPage')$" class="redirect-link"&gt;
+    &lt;div class="gold-exchange-programme"&gt;
+      &lt;picture&gt;
+        &lt;source media="(min-width: 992px)" srcset="images/plp/espot.jpg?$staticlink$"&gt;
+        &lt;source media="(max-width: 991px)" srcset="images/plp/espot.jpg?$staticlink$"&gt;
+        &lt;img class="gold-banner-image" alt="Image not found" src="images/plp/images/plp/blackfriday-banner.jpg?$staticlink$"&gt;
+      &lt;/picture&gt;
+    &lt;/div&gt;
+  &lt;/a&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="mi-mia-wedding-gifting" configuration-id="New Slot Configuration - 2024-12-10 11:02:25" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;style&gt; @media screen and (max-width: 992px) {
+    .product-plp-grid-inner .all-for-her .all-for-her-inner img.all-image {
+        height: auto !important;
+    }
+}
+.gold-banner-image {
+    height: auto !important;
+  }  
+   &lt;/style&gt;
+&lt;div class="container-gold-exchange col-6 pr-lg-0" data-gtmid="gift_golden_memories" data-gtmname="Gift Golden Memories"&gt;
+    &lt;a href="$url('Search-Show','cgid', 'mi-mia-wedding-gifting', 'sytePage', 'tourPage')$" class="redirect-link"&gt;
+    &lt;div class="gold-exchange-programme"&gt;
+      &lt;picture&gt;
+        &lt;source media="(min-width: 992px)" srcset="images/plp/plp-banner-desktop-wedding-gifting.jpg?$staticlink$"&gt;
+        &lt;source media="(max-width: 991px)" srcset="images/plp/plp-banner-desktop-wedding-gifting.jpg?$staticlink$"&gt;
+        &lt;img class="gold-banner-image" alt="Image not found" src="images/plp/plp-banner-desktop-wedding-gifting.jpg?$staticlink$"&gt;
+      &lt;/picture&gt;
+    &lt;/div&gt;
+  &lt;/a&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner3" context="category" context-id="mi-mia-wedding-gifting" configuration-id="New Slot Configuration - 2024-12-10 11:29:49" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="d-none d-lg-block"&gt;&lt;img alt="" class="plp-top-banner" src="images/plp/espot-banner-wedding-gifting-desk.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;
+&lt;p class="d-lg-none d-block"&gt;&lt;img alt="" class="plp-top-banner" src="images/plp/espot-banner-wedding-gifting-mobile.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;
+&lt;style&gt; 
+.category-grid-banner .plp-top-banner {
+   height: 100% !important;
+}
+&lt;/style&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="mi-finger-rings" configuration-id="New Slot Configuration - 2024-12-11 11:12:24" assigned-to-site="true">
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="plpBanner1"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="mi-necklaces" configuration-id="New Slot Configuration - 2024-12-11 11:13:13" assigned-to-site="true">
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="plpBanner1"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="mi-bangles" configuration-id="New Slot Configuration - 2024-12-11 11:13:58" assigned-to-site="true">
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="plpBanner1"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="mi-bracelets" configuration-id="New Slot Configuration - 2024-12-11 11:14:47" assigned-to-site="true">
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="plpBanner1"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="mi-coins" configuration-id="New Slot Configuration - 2024-12-11 11:15:44" assigned-to-site="true">
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="plpBanner1"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="mi-mangalsutra" configuration-id="New Slot Configuration - 2024-12-11 11:16:37" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;style&gt; @media screen and (max-width: 992px) {
+    .product-plp-grid-inner .all-for-her .all-for-her-inner img.all-image {
+        height: auto !important;
+    }
+}
+.gold-banner-image {
+    height: auto !important;
+  }  
+   &lt;/style&gt;
+&lt;div class="container-gold-exchange col-6 pr-lg-0" data-gtmid="gift_golden_memories" data-gtmname="Gift Golden Memories"&gt;
+    &lt;a href="$url('Search-Show','cgid', 'mi-mia-wedding-gifting', 'sytePage', 'tourPage')$" class="redirect-link"&gt;
+    &lt;div class="gold-exchange-programme"&gt;
+      &lt;picture&gt;
+        &lt;source media="(min-width: 992px)" srcset="images/plp/plp-banner-desktop-wedding-gifting.jpg?$staticlink$"&gt;
+        &lt;source media="(max-width: 991px)" srcset="images/plp/plp-banner-desktop-wedding-gifting.jpg?$staticlink$"&gt;
+        &lt;img class="gold-banner-image" alt="Image not found" src="images/plp/plp-banner-desktop-wedding-gifting.jpg?$staticlink$"&gt;
+      &lt;/picture&gt;
+    &lt;/div&gt;
+  &lt;/a&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="mi-chains" configuration-id="New Slot Configuration - 2024-12-11 11:17:20" assigned-to-site="true">
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="plpBanner1"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="mi-nosepins" configuration-id="New Slot Configuration - 2024-12-11 11:18:01" assigned-to-site="true">
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="plpBanner1"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="mi-silver" configuration-id="New Slot Configuration - 2024-12-11 11:19:03" assigned-to-site="true">
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="plpBanner1"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="mi-disco" configuration-id="New Slot Configuration - 2024-12-11 11:20:29" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;style&gt; @media screen and (max-width: 992px) {
+    .product-plp-grid-inner .all-for-her .all-for-her-inner img.all-image {
+        height: auto !important;
+    }
+}
+.gold-banner-image {
+    height: auto !important;
+  }  
+   &lt;/style&gt;
+&lt;div class="container-gold-exchange col-6 pr-lg-0" data-gtmid="gift_golden_memories" data-gtmname="Gift Golden Memories"&gt;
+    &lt;a href="$url('Search-Show','cgid', 'mi-mia-wedding-gifting', 'sytePage', 'tourPage')$" class="redirect-link"&gt;
+    &lt;div class="gold-exchange-programme"&gt;
+      &lt;picture&gt;
+        &lt;source media="(min-width: 992px)" srcset="images/plp/plp-banner-desktop-wedding-gifting.jpg?$staticlink$"&gt;
+        &lt;source media="(max-width: 991px)" srcset="images/plp/plp-banner-desktop-wedding-gifting.jpg?$staticlink$"&gt;
+        &lt;img class="gold-banner-image" alt="Image not found" src="images/plp/plp-banner-desktop-wedding-gifting.jpg?$staticlink$"&gt;
+      &lt;/picture&gt;
+    &lt;/div&gt;
+  &lt;/a&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="mi-rings-for-men" configuration-id="New Slot Configuration - 2024-12-11 11:21:13" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;style&gt; @media screen and (max-width: 992px) {
+    .product-plp-grid-inner .all-for-her .all-for-her-inner img.all-image {
+        height: auto !important;
+    }
+}
+.gold-banner-image {
+    height: auto !important;
+  }  
+   &lt;/style&gt;
+&lt;div class="container-gold-exchange col-6 pr-lg-0" data-gtmid="gift_golden_memories" data-gtmname="Gift Golden Memories"&gt;
+    &lt;a href="$url('Search-Show','cgid', 'mi-mia-wedding-gifting', 'sytePage', 'tourPage')$" class="redirect-link"&gt;
+    &lt;div class="gold-exchange-programme"&gt;
+      &lt;picture&gt;
+        &lt;source media="(min-width: 992px)" srcset="images/plp/plp-banner-desktop-wedding-gifting.jpg?$staticlink$"&gt;
+        &lt;source media="(max-width: 991px)" srcset="images/plp/plp-banner-desktop-wedding-gifting.jpg?$staticlink$"&gt;
+        &lt;img class="gold-banner-image" alt="Image not found" src="images/plp/plp-banner-desktop-wedding-gifting.jpg?$staticlink$"&gt;
+      &lt;/picture&gt;
+    &lt;/div&gt;
+  &lt;/a&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="mi-homecoming" configuration-id="New Slot Configuration - 2024-12-11 11:21:50" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;style&gt; @media screen and (max-width: 992px) {
+    .product-plp-grid-inner .all-for-her .all-for-her-inner img.all-image {
+        height: auto !important;
+    }
+}
+.gold-banner-image {
+    height: auto !important;
+  }  
+   &lt;/style&gt;
+&lt;div class="container-gold-exchange col-6 pr-lg-0" data-gtmid="gift_golden_memories" data-gtmname="Gift Golden Memories"&gt;
+    &lt;a href="$url('Search-Show','cgid', 'mi-mia-wedding-gifting', 'sytePage', 'tourPage')$" class="redirect-link"&gt;
+    &lt;div class="gold-exchange-programme"&gt;
+      &lt;picture&gt;
+        &lt;source media="(min-width: 992px)" srcset="images/plp/plp-banner-desktop-wedding-gifting.jpg?$staticlink$"&gt;
+        &lt;source media="(max-width: 991px)" srcset="images/plp/plp-banner-desktop-wedding-gifting.jpg?$staticlink$"&gt;
+        &lt;img class="gold-banner-image" alt="Image not found" src="images/plp/plp-banner-desktop-wedding-gifting.jpg?$staticlink$"&gt;
+      &lt;/picture&gt;
+    &lt;/div&gt;
+  &lt;/a&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="mi-steal-deals" configuration-id="New Slot Configuration - 2024-12-11 11:23:19" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;style&gt; @media screen and (max-width: 992px) {
+    .product-plp-grid-inner .all-for-her .all-for-her-inner img.all-image {
+        height: auto !important;
+    }
+}
+.gold-banner-image {
+    height: auto !important;
+  }  
+   &lt;/style&gt;
+&lt;div class="container-gold-exchange col-6 pr-lg-0" data-gtmid="gift_golden_memories" data-gtmname="Gift Golden Memories"&gt;
+    &lt;a href="$url('Search-Show','cgid', 'mi-mia-wedding-gifting', 'sytePage', 'tourPage')$" class="redirect-link"&gt;
+    &lt;div class="gold-exchange-programme"&gt;
+      &lt;picture&gt;
+        &lt;source media="(min-width: 992px)" srcset="images/plp/plp-banner-desktop-wedding-gifting.jpg?$staticlink$"&gt;
+        &lt;source media="(max-width: 991px)" srcset="images/plp/plp-banner-desktop-wedding-gifting.jpg?$staticlink$"&gt;
+        &lt;img class="gold-banner-image" alt="Image not found" src="images/plp/plp-banner-desktop-wedding-gifting.jpg?$staticlink$"&gt;
+      &lt;/picture&gt;
+    &lt;/div&gt;
+  &lt;/a&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner3" context="category" context-id="mi-now-or-never-selection" configuration-id="New Slot Configuration - 2024-12-16 13:14:33" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="d-none d-lg-block"&gt;&lt;img alt="" class="plp-top-banner" src="images/plp/nowornever-desk.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;
+&lt;p class="d-lg-none d-block"&gt;&lt;img alt="" class="plp-top-banner" src="images/plp/nowornever-mobile.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;
+&lt;style&gt; 
+.category-grid-banner .plp-top-banner {
+   height: 100% !important;
+}
+&lt;/style&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner3" context="category" context-id="mi-joy-of-gifting" configuration-id="New Slot Configuration - 2025-01-08 11:45:03" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="d-none d-lg-block"&gt;
+	&lt;img alt="" class="plp-top-banner" src="images/plp/plp-desktop-jog-final.png?$staticlink$" title="" /&gt;
+&lt;/p&gt;
+&lt;p class="d-lg-none d-block"&gt;
+	&lt;img alt="" class="plp-top-banner" src="images/plp/plp-mobile-jog-final.png?$staticlink$" title="" /&gt;
+&lt;/p&gt;
+&lt;style&gt;
+	.category-grid-banner .plp-top-banner {
+	   height: 100% !important;
+	}
+&lt;/style&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="mi-silver" configuration-id="New Slot Configuration - 2025-01-08 16:36:55" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/joy-of-gifting';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Upto 20% off* on diamond jewellery &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Offer applies at checkout &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Click here to shop! &lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4mbl" context="category" context-id="mi-silver" configuration-id="New Slot Configuration - 2025-01-08 16:37:34" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/joy-of-gifting';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Upto 20% off* on diamond jewellery  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Offer applies at checkout &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Click here to shop!&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="mi-necklaces" configuration-id="New Slot Configuration - 2025-01-08 16:54:27" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/joy-of-gifting';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Upto 20% off* on diamond jewellery &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Offer applies at checkout &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Click here to shop! &lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4mbl" context="category" context-id="mi-necklaces" configuration-id="New Slot Configuration - 2025-01-08 16:56:03" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/joy-of-gifting';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Upto 20% off* on diamond jewellery  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Offer applies at checkout &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Click here to shop!&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="mi-bangles" configuration-id="New Slot Configuration - 2025-01-08 16:57:07" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/joy-of-gifting';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Upto 20% off* on diamond jewellery &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Offer applies at checkout &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Click here to shop! &lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4mbl" context="category" context-id="mi-bangles" configuration-id="New Slot Configuration - 2025-01-08 16:57:41" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/joy-of-gifting';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Upto 20% off* on diamond jewellery  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Offer applies at checkout &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Click here to shop!&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="mi-bracelets" configuration-id="New Slot Configuration - 2025-01-08 16:59:14" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/joy-of-gifting';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Upto 20% off* on diamond jewellery &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Offer applies at checkout &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Click here to shop! &lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4mbl" context="category" context-id="mi-bracelets" configuration-id="New Slot Configuration - 2025-01-08 17:00:23" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/joy-of-gifting';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Upto 20% off* on diamond jewellery  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Offer applies at checkout &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Click here to shop!&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="mi-coins" configuration-id="New Slot Configuration - 2025-01-08 17:02:43" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/joy-of-gifting';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Upto 20% off* on diamond jewellery &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Offer applies at checkout &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Click here to shop! &lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4mbl" context="category" context-id="mi-coins" configuration-id="New Slot Configuration - 2025-01-08 17:03:26" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/joy-of-gifting';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Upto 20% off* on diamond jewellery  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Offer applies at checkout &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Click here to shop!&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="mi-mangalsutra" configuration-id="New Slot Configuration - 2025-01-08 17:05:07" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/joy-of-gifting';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Upto 20% off* on diamond jewellery &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Offer applies at checkout &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Click here to shop! &lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4mbl" context="category" context-id="mi-mangalsutra" configuration-id="New Slot Configuration - 2025-01-08 17:06:00" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/joy-of-gifting';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Upto 20% off* on diamond jewellery  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Offer applies at checkout &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Click here to shop!&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="mi-chains" configuration-id="New Slot Configuration - 2025-01-08 17:09:38" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/joy-of-gifting';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Upto 20% off* on diamond jewellery &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Offer applies at checkout &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Click here to shop! &lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4mbl" context="category" context-id="mi-chains" configuration-id="New Slot Configuration - 2025-01-08 17:10:23" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/joy-of-gifting';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Upto 20% off* on diamond jewellery  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Offer applies at checkout &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Click here to shop!&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="mi-nosepins" configuration-id="New Slot Configuration - 2025-01-08 17:12:32" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/joy-of-gifting';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Upto 20% off* on diamond jewellery &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Offer applies at checkout &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Click here to shop! &lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4mbl" context="category" context-id="mi-nosepins" configuration-id="New Slot Configuration - 2025-01-08 17:13:02" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/joy-of-gifting';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Upto 20% off* on diamond jewellery  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Offer applies at checkout &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Click here to shop!&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="mi-mia-wedding-gifting" configuration-id="New Slot Configuration - 2025-01-08 17:17:17" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/joy-of-gifting';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Upto 20% off* on diamond jewellery &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Offer applies at checkout &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Click here to shop! &lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4mbl" context="category" context-id="mi-mia-wedding-gifting" configuration-id="New Slot Configuration - 2025-01-08 17:18:05" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/joy-of-gifting';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Upto 20% off* on diamond jewellery  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Offer applies at checkout &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Click here to shop!&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="mi-now-or-never-selection" configuration-id="New Slot Configuration - 2025-01-08 17:20:32" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/joy-of-gifting';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Upto 20% off* on diamond jewellery &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Offer applies at checkout &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Click here to shop! &lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4mbl" context="category" context-id="mi-now-or-never-selection" configuration-id="New Slot Configuration - 2025-01-08 17:21:53" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="plp-banner-scroll watermark-bg-global" onclick="window.location.href = 'https://www.miabytanishq.com/en_IN/shop/joy-of-gifting';"&gt;
+
+&lt;div class="plp-banner banner-desk" id="banner"&gt;
+&lt;span class="banner-content"&gt;Upto 20% off* on diamond jewellery  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-green" id="banner"&gt;
+&lt;span class="banner-content"&gt;Offer applies at checkout &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;
+&lt;span class="banner-content"&gt;Click here to shop!&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="mi-joy-of-gifting" configuration-id="New Slot Configuration - 2025-01-22 11:08:48" assigned-to-site="false">
+        <template>slots/product/product_1x2.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <products/>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner3" context="category" context-id="mi-the-cupid-edit" configuration-id="New Slot Configuration - 2025-01-22 11:19:07" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="d-none d-lg-block"&gt;&lt;img alt="" class="plp-top-banner" src="images/plp/valentines-desktop.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;
+&lt;p class="d-lg-none d-block"&gt;&lt;img alt="" class="plp-top-banner" src="images/plp/valentines-mobile.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;
+&lt;style&gt; 
+.category-grid-banner .plp-top-banner {
+   height: 100% !important;
+}
+&lt;/style&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner2" context="category" context-id="mi-finger-rings" configuration-id="New Slot Configuration - 2025-02-11 12:56:11" assigned-to-site="true">
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="plpBanner2"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner2" context="category" context-id="mi-necklaces" configuration-id="New Slot Configuration - 2025-02-11 12:58:39" assigned-to-site="true">
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="plpBanner2"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner2" context="category" context-id="mi-bangles" configuration-id="New Slot Configuration - 2025-02-11 13:01:31" assigned-to-site="true">
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="plpBanner2"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner2" context="category" context-id="mi-bracelets" configuration-id="New Slot Configuration - 2025-02-11 13:04:23" assigned-to-site="true">
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="plpBanner2"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner2" context="category" context-id="mi-coins" configuration-id="New Slot Configuration - 2025-02-11 13:49:33" assigned-to-site="true">
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="plpBanner2"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner2" context="category" context-id="mi-mangalsutra" configuration-id="New Slot Configuration - 2025-02-11 13:52:47" assigned-to-site="true">
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="plpBanner2"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner2" context="category" context-id="mi-chains" configuration-id="New Slot Configuration - 2025-02-11 13:54:39" assigned-to-site="true">
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="plpBanner2"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner2" context="category" context-id="mi-nosepins" configuration-id="New Slot Configuration - 2025-02-11 13:55:48" assigned-to-site="true">
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="plpBanner1=2"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner2" context="category" context-id="mi-silver" configuration-id="New Slot Configuration - 2025-02-11 13:57:04" assigned-to-site="true">
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="plpBanner2"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner3" context="category" context-id="mi-pay-day-offer" configuration-id="New Slot Configuration - 2025-02-28 19:18:12" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="d-none d-lg-block"&gt;&lt;img alt="" class="plp-top-banner" src="images/plp/plp-banners/pay-day-mobile.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;
+&lt;p class="d-lg-none d-block"&gt;&lt;img alt="" class="plp-top-banner" src="images/plp/plp-banners/pay-day-desktop.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;
+&lt;style&gt; 
+.category-grid-banner .plp-top-banner {
+   height: 100% !important;
+}
+&lt;/style&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner3" context="category" context-id="mi-colourfest-holi-offer-2025" configuration-id="New Slot Configuration - 2025-03-06 18:39:57" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="d-none d-lg-block"&gt;&lt;img alt="" class="plp-top-banner" src="images/plp/plp-banners/web-plpl-desk-color-fest.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;
+&lt;p class="d-lg-none d-block"&gt;&lt;img alt="" class="plp-top-banner" src="images/plp/plp-banners/web-plpl-mobile-color-fest.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;
+&lt;style&gt; 
+.category-grid-banner .plp-top-banner {
+   height: 100% !important;
+}
+&lt;/style&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner2" context="category" context-id="mi-steal-deals" configuration-id="New Slot Configuration - 2025-03-07 00:16:56" assigned-to-site="true">
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="plpBanner2"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="by-earrings" configuration-id="New Slot Configuration - 2025-12-26 10:28:12" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="col-6 col-sm-3 product-plp-item plp-view-item plp-banner-5col"&gt;
+    &lt;a href="$url('Search-Show','cgid','by-rings')$" class="redirect-link"&gt;
+    &lt;img alt="" src="images/plp/ESPOT2-RINGS-WITH-CTA-BUTTON.jpg?$staticlink$" title="" style="width: 100%;"/&gt;
+    &lt;/a&gt;
+PLP BAnner 1
+&lt;/p&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="by-bangles" configuration-id="New Slot Configuration - 2025-12-26 10:48:22" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="col-6 col-sm-3 product-plp-item plp-view-item plp-banner-5col"&gt;
+    &lt;a href="$url('Search-Show','cgid','by-rings')$" class="redirect-link"&gt;
+    &lt;img alt="" src="images/plp/ESPOT2-RINGS-WITH-CTA-BUTTON.jpg?$staticlink$" title="" style="width: 100%;"/&gt;
+    &lt;/a&gt;
+&lt;/p&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner2" context="category" context-id="by-bangles" configuration-id="New Slot Configuration - 2025-12-26 10:50:09" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="col-6 col-sm-3 product-plp-item plp-view-item  espot-2  plp-banner-5col-espot2"&gt;&lt;img alt="" src="https://development-ap01-titan.demandware.net/on/demandware.servlet/webdav/Sites/Libraries/Beyon/default/images/plp/ESPOT3-PARTY.jpg?$staticlink$" title="" /&gt;&lt;/p&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="by-bracelets" configuration-id="New Slot Configuration - 2025-12-26 10:51:17" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="col-6 col-sm-3 product-plp-item plp-view-item plp-banner-5col"&gt;&lt;img alt="" src="images/plp/ESPOT2-RINGS-WITH-CTA-BUTTON.jpg?$staticlink$" title="" style="width: 100%;"/&gt;&lt;/p&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner2" context="category" context-id="by-bracelets" configuration-id="New Slot Configuration - 2025-12-26 10:51:55" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="col-6 col-sm-3 product-plp-item plp-view-item  espot-2  plp-banner-5col-espot2"&gt;&lt;img alt="" src="images/plp/ESPOT3-PARTY.jpg?$staticlink$" title="" /&gt;&lt;button class="plpbanner2-cta "&gt;Go on, indulge in your party-mood with beYon diamonds!&lt;/button&gt;&lt;/p&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner2" context="category" context-id="by-earrings" configuration-id="New Slot Configuration - 2025-12-26 10:53:33" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="col-6 col-sm-3 product-plp-item plp-view-item  espot-2  plp-banner-5col-espot2"&gt;&lt;img alt="" src="images/plp/ESPOT3-PARTY.jpg?$staticlink$" title="" /&gt;&lt;button class="plpbanner2-cta "&gt;Go on, indulge in your party-mood with beYon diamonds!&lt;/button&gt;&lt;/p&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="by-mangalsutra" configuration-id="New Slot Configuration - 2025-12-26 10:54:58" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="col-6 col-sm-3 product-plp-item plp-view-item plp-banner-5col"&gt;&lt;img alt="" src="images/plp/ESPOT2-RINGS-WITH-CTA-BUTTON.jpg?$staticlink$" title="" style="width: 100%;"/&gt;&lt;/p&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner2" context="category" context-id="by-mangalsutra" configuration-id="New Slot Configuration - 2025-12-26 10:55:32" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="col-6 col-sm-3 product-plp-item plp-view-item  espot-2  plp-banner-5col-espot2"&gt;&lt;img alt="" src="images/plp/ESPOT3-PARTY.jpg?$staticlink$" title="" /&gt;&lt;button class="plpbanner2-cta "&gt;Go on, indulge in your party-mood with beYon diamonds!&lt;/button&gt;&lt;/p&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="by-necklace" configuration-id="New Slot Configuration - 2025-12-26 11:34:22" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="col-6 col-sm-3 product-plp-item plp-view-item plp-banner-5col"&gt;&lt;img alt="" src="images/plp/ESPOT2-RINGS-WITH-CTA-BUTTON.jpg?$staticlink$" title="" style="width: 100%;"/&gt;&lt;/p&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner2" context="category" context-id="by-necklace" configuration-id="New Slot Configuration - 2025-12-26 11:34:59" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="col-6 col-sm-3 product-plp-item plp-view-item  espot-2  plp-banner-5col-espot2"&gt;&lt;img alt="" src="images/plp/ESPOT3-PARTY.jpg?$staticlink$" title="" /&gt;&lt;button class="plpbanner2-cta "&gt;Go on, indulge in your party-mood with beYon diamonds!&lt;/button&gt;&lt;/p&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="by-rings" configuration-id="New Slot Configuration - 2025-12-26 11:36:06" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;style&gt;
+       .plp-banner-yellow {
+            align-items: center;
+         }
+        .banner-content {
+               height: unset !important;
+         }
+&lt;/style&gt;
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;&lt;span class="banner-content"&gt;NO EXCHANGE ON DIAMONDS&lt;/span&gt;&lt;button class="banner-close-btn close mt-lg-0" data-dismiss="modal" type="button"&gt;&lt;img alt="" class="close-btn-img mx-auto" src="images/plp/espot-close.svg?$staticlink$" title="" /&gt;&lt;/button&gt;&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner2" context="category" context-id="by-rings" configuration-id="New Slot Configuration - 2025-12-26 11:36:54" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="col-6 col-sm-3 product-plp-item plp-view-item  espot-2  plp-banner-5col-espot2"&gt;&lt;img alt="" src="images/plp/ESPOT3-PARTY.jpg?$staticlink$" title="" /&gt;&lt;button class="plpbanner2-cta "&gt;Go on, indulge in your party-mood with beYon diamonds!&lt;/button&gt;&lt;/p&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="by-rings" configuration-id="New Slot Configuration - 2025-12-26 11:37:38" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="col-6 col-sm-3 product-plp-item plp-view-item plp-banner-5col"&gt;
+    &lt;a href="$url('Search-Show','cgid','by-rings')$" class="redirect-link"&gt;
+    &lt;img alt="" src="images/plp/ESPOT2-RINGS-WITH-CTA-BUTTON.jpg?$staticlink$" title="" style="width: 100%;"/&gt;
+    &lt;/a&gt;
+&lt;/p&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="by-nosepins" configuration-id="New Slot Configuration - 2025-12-26 11:41:07" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="col-6 col-sm-3 product-plp-item plp-view-item plp-banner-5col"&gt;
+    &lt;a href="$url('Search-Show','cgid','by-rings')$" class="redirect-link"&gt;
+    &lt;img alt="" src="images/plp/ESPOT2-RINGS-WITH-CTA-BUTTON.jpg?$staticlink$" title="" style="width: 100%;"/&gt;
+    &lt;/a&gt;
+&lt;/p&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner2" context="category" context-id="by-nosepins" configuration-id="New Slot Configuration - 2025-12-26 11:41:57" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="col-6 col-sm-3 product-plp-item plp-view-item  espot-2  plp-banner-5col-espot2"&gt;&lt;img alt="" src="images/plp/ESPOT3-PARTY.jpg?$staticlink$" title="" /&gt;&lt;button class="plpbanner2-cta "&gt;Go on, indulge in your party-mood with beYon diamonds!&lt;/button&gt;&lt;/p&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="by-nosepins" configuration-id="New Slot Configuration - 2025-12-26 11:45:12" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;style&gt;
+       .plp-banner-yellow {
+            align-items: center;
+         }
+        .banner-content {
+               height: unset !important;
+         }
+&lt;/style&gt;
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;&lt;span class="banner-content"&gt;NO EXCHANGE ON DIAMONDS&lt;/span&gt;&lt;button class="banner-close-btn close mt-lg-0" data-dismiss="modal" type="button"&gt;&lt;img alt="" class="close-btn-img mx-auto" src="images/plp/espot-close.svg?$staticlink$" title="" /&gt;&lt;/button&gt;&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="by-pendants" configuration-id="New Slot Configuration - 2025-12-26 11:46:34" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="col-6 col-sm-3 product-plp-item plp-view-item plp-banner-5col"&gt;&lt;img alt="" src="images/plp/ESPOT2-RINGS-WITH-CTA-BUTTON.jpg?$staticlink$" title="" style="width: 100%;"/&gt;&lt;/p&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner2" context="category" context-id="by-pendants" configuration-id="New Slot Configuration - 2025-12-26 12:06:20" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="col-6 col-sm-3 product-plp-item plp-view-item  espot-2  plp-banner-5col-espot2"&gt;&lt;img alt="" src="images/plp/ESPOT3-PARTY.jpg?$staticlink$" title="" /&gt;&lt;button class="plpbanner2-cta "&gt;Go on, indulge in your party-mood with beYon diamonds!&lt;/button&gt;&lt;/p&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="by-pendants" configuration-id="New Slot Configuration - 2025-12-26 12:07:20" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;style&gt;
+       .plp-banner-yellow {
+            align-items: center;
+         }
+        .banner-content {
+               height: unset !important;
+         }
+&lt;/style&gt;
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;&lt;span class="banner-content"&gt;NO EXCHANGE ON DIAMONDS&lt;/span&gt;&lt;button class="banner-close-btn close mt-lg-0" data-dismiss="modal" type="button"&gt;&lt;img alt="" class="close-btn-img mx-auto" src="images/plp/espot-close.svg?$staticlink$" title="" /&gt;&lt;/button&gt;&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="category" context-id="by-pendants-with-earrings" configuration-id="New Slot Configuration - 2025-12-26 12:08:12" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="col-6 col-sm-3 product-plp-item plp-view-item plp-banner-5col"&gt;&lt;img alt="" src="images/plp/ESPOT2-RINGS-WITH-CTA-BUTTON.jpg?$staticlink$" title="" style="width: 100%;"/&gt;&lt;/p&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner2" context="category" context-id="by-pendants-with-earrings" configuration-id="New Slot Configuration - 2025-12-26 12:08:47" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p class="col-6 col-sm-3 product-plp-item plp-view-item  espot-2  plp-banner-5col-espot2"&gt;&lt;img alt="" src="images/plp/ESPOT3-PARTY.jpg?$staticlink$" title="" /&gt;&lt;button class="plpbanner2-cta "&gt;Go on, indulge in your party-mood with beYon diamonds!&lt;/button&gt;&lt;/p&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="by-pendants-with-earrings" configuration-id="New Slot Configuration - 2025-12-26 12:09:24" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;style&gt;
+       .plp-banner-yellow {
+            align-items: center;
+         }
+        .banner-content {
+               height: unset !important;
+         }
+&lt;/style&gt;
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;&lt;span class="banner-content"&gt;NO EXCHANGE ON DIAMONDS&lt;/span&gt;&lt;button class="banner-close-btn close mt-lg-0" data-dismiss="modal" type="button"&gt;&lt;img alt="" class="close-btn-img mx-auto" src="images/plp/espot-close.svg?$staticlink$" title="" /&gt;&lt;/button&gt;&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="by-bangles" configuration-id="New Slot Configuration - 2025-12-26 12:10:31" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;style&gt;
+       .plp-banner-yellow {
+            align-items: center;
+         }
+        .banner-content {
+               height: unset !important;
+         }
+&lt;/style&gt;
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;&lt;span class="banner-content"&gt;NO EXCHANGE ON DIAMONDS&lt;/span&gt;&lt;button class="banner-close-btn close mt-lg-0" data-dismiss="modal" type="button"&gt;&lt;img alt="" class="close-btn-img mx-auto" src="images/plp/espot-close.svg?$staticlink$" title="" /&gt;&lt;/button&gt;&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="by-bracelets" configuration-id="New Slot Configuration - 2025-12-26 12:11:09" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;style&gt;
+       .plp-banner-yellow {
+            align-items: center;
+         }
+        .banner-content {
+               height: unset !important;
+         }
+&lt;/style&gt;
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;&lt;span class="banner-content"&gt;NO EXCHANGE ON DIAMONDS&lt;/span&gt;&lt;button class="banner-close-btn close mt-lg-0" data-dismiss="modal" type="button"&gt;&lt;img alt="" class="close-btn-img mx-auto" src="images/plp/espot-close.svg?$staticlink$" title="" /&gt;&lt;/button&gt;&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="by-earrings" configuration-id="New Slot Configuration - 2025-12-26 12:11:48" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;style&gt;
+       .plp-banner-yellow {
+            align-items: center;
+         }
+        .banner-content {
+               height: unset !important;
+         }
+&lt;/style&gt;
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;&lt;span class="banner-content"&gt;NO EXCHANGE ON DIAMONDS&lt;/span&gt;&lt;button class="banner-close-btn close mt-lg-0" data-dismiss="modal" type="button"&gt;&lt;img alt="" class="close-btn-img mx-auto" src="images/plp/espot-close.svg?$staticlink$" title="" /&gt;&lt;/button&gt;&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="by-mangalsutra" configuration-id="New Slot Configuration - 2025-12-26 12:12:23" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;style&gt;
+       .plp-banner-yellow {
+            align-items: center;
+         }
+        .banner-content {
+               height: unset !important;
+         }
+&lt;/style&gt;
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;&lt;span class="banner-content"&gt;NO EXCHANGE ON DIAMONDS&lt;/span&gt;&lt;button class="banner-close-btn close mt-lg-0" data-dismiss="modal" type="button"&gt;&lt;img alt="" class="close-btn-img mx-auto" src="images/plp/espot-close.svg?$staticlink$" title="" /&gt;&lt;/button&gt;&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner4" context="category" context-id="by-necklace" configuration-id="New Slot Configuration - 2025-12-26 12:12:56" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;style&gt;
+       .plp-banner-yellow {
+            align-items: center;
+         }
+        .banner-content {
+               height: unset !important;
+         }
+&lt;/style&gt;
+&lt;div class="plp-banner banner-desk plp-banner-yellow" id="banner"&gt;&lt;span class="banner-content"&gt;NO EXCHANGE ON DIAMONDS&lt;/span&gt;&lt;button class="banner-close-btn close mt-lg-0" data-dismiss="modal" type="button"&gt;&lt;img alt="" class="close-btn-img mx-auto" src="images/plp/espot-close.svg?$staticlink$" title="" /&gt;&lt;/button&gt;&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="category-grid-bannner-one" context="category" context-id="by-bangles" configuration-id="New Slot Configuration - 2026-01-05 12:52:22" assigned-to-site="false">
+        <template>slots/product/product_1x2.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <products/>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="noresults-help" context="global" configuration-id="NoResulPage" default="true" assigned-to-site="true">
+        <description>Will render noResult isml</description>
+        <template>slots/html/noResult.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html/>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="home-products-m" context="global" configuration-id="Show-similar-products-pdp" default="true" assigned-to-site="true">
+        <template>slots/product/showsimilar.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <products>
+                <product product-id="552923dazaae09"/>
+                <product product-id="552923ggfae00"/>
+                <product product-id="552923fepae29"/>
+                <product product-id="552923ndzae09"/>
+                <product product-id="552923ven1e09"/>
+                <product product-id="552923bfhae00"/>
+            </products>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="slot_available_offers_component" context="global" configuration-id="availableOffers" assigned-to-site="true">
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="available_offers_component"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="bestSellerRecommendation" context="global" configuration-id="bestSellerRecommendation" default="true" assigned-to-site="true">
+        <description>Best Sellers</description>
+        <template>slots/recommendation/bestSeller.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <callout-msg xml:lang="x-default">Best Sellers</callout-msg>
+        <content>
+            <recommended-products recommendation-rule-id="products-in-a-category"/>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="digiGoldHome" context="global" configuration-id="digigoldnavbar" default="true" assigned-to-site="true">
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="digiGoldLandingPageHeroBanner"/>
+                <content-asset content-id="digiGoldLandingPageInfoSection"/>
+                <content-asset content-id="digiGoldLandingPageKeyFeatures"/>
+                <content-asset content-id="digiGoldLandingPageHowItWorks"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="footer-bottom-slot" context="global" configuration-id="footer-text" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="notification-top-bar d-none"&gt;&lt;button class="cross-sticky"&gt;&lt;img alt="" src="images/slot/cross.svg?$staticlink$" title="" /&gt;&lt;/button&gt;
+&lt;p&gt;&lt;font style="vertical-align: inherit;"&gt;&lt;font style="vertical-align: inherit;"&gt;We use cookies to optimize your visit. &lt;/font&gt;&lt;font style="vertical-align: inherit;"&gt;By continuing to browse our site you are accepting our cookie policy.&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="home-top-slot" context="global" configuration-id="home-top-text" default="true" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="notification-top-bar-top"&gt;
+	&lt;button class="cross-sticky"&gt;
+		&lt;span class="svg-sprite cross-icon-black"&gt;&lt;/span&gt;
+	&lt;/button&gt;
+	&lt;p&gt;
+		&lt;font style="vertical-align: inherit;"&gt;
+			&lt;font style="vertical-align: inherit;"&gt;
+				&lt;font style="vertical-align: inherit;"&gt;
+					&lt;font style="vertical-align: inherit;"&gt;Celebrate Valentine's Week with us and get &lt;b&gt;Rs 500*off/-&lt;/b&gt; on your first purchase. Use Code:&lt;b&gt; WELCOME500&lt;/b&gt; ( Not Valid on Gift Card &amp; Gold Coins) *T&amp;C Apply&lt;/font&gt;
+				&lt;/font&gt;
+			&lt;/font&gt;
+
+		&lt;/font&gt;
+	&lt;/p&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="search-result-banner-m" context="global" configuration-id="noResults-similar-products" default="true" assigned-to-site="true">
+        <description>Similar products carousel for noResults</description>
+        <template>slots/product/showsimilar.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <products>
+                <product product-id="5000051faaba02"/>
+                <product product-id="502811fdeae09"/>
+                <product product-id="502811fgpae09"/>
+                <product product-id="502812cbbaa00"/>
+                <product product-id="502819canae00"/>
+                <product product-id="502818cdsaa00"/>
+                <product product-id="552823nepaa37"/>
+                <product product-id="504922gkxae00"/>
+                <product product-id="552823beqaa37"/>
+            </products>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="my-account-order" context="global" configuration-id="orderHelpSectiion" default="true" assigned-to-site="true">
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="help-order-pages"/>
+            </content-assets>
+        </content>
+        <customer-groups>
+            <customer-group group-id="Registered"/>
+        </customer-groups>
+    </slot-configuration>
+
+    <slot-configuration slot-id="pdp-middle-banner-jewel-coin" context="global" configuration-id="pdp-middle-banner-jewel-coin-with-cta" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;a href='javascript:void(0)'&gt;&lt;img alt="Middle Banner" src="images/Group%2014561.png?$staticlink$" title="" width=100% /&gt;&lt;/a&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="pdp-middle-banner-jewel-coin" context="global" configuration-id="pdp-middle-banner-jewel-coin-without-cta" default="true" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;p&gt;&lt;img alt="Middle Banner" src="images/Group%2014561.png?$staticlink$" title="" width=100% /&gt;&lt;/p&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="pendants-banner" context="category" context-id="tq-necklaces" configuration-id="pendants-banner" assigned-to-site="true">
+        <description>pendants banner products</description>
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="pendants-banner"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner1" context="global" configuration-id="plpBanner1" assigned-to-site="true">
+        <description>Gold exchange products</description>
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="plpBanner1"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="plpBanner2" context="global" configuration-id="plpBanner2" assigned-to-site="true">
+        <description>All for her products</description>
+        <template>slots/content/contentAssetBody.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <content-assets>
+                <content-asset content-id="plpBanner2"/>
+            </content-assets>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="search-bar-popular-products-revamped" context="global" configuration-id="search-bar-popular-products-revamped" assigned-to-site="false">
+        <template>slots/product/searchSuggestion.isml</template>
+        <enabled-flag>false</enabled-flag>
+        <content>
+            <products/>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="sell-digigold-popup-slot" context="global" configuration-id="sell-digigold-popup-slot-content" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainer.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="modal fade digigold-reminder" data-backdrop="static" data-keyboard="false" id="digiGoldReminder" tabindex="-1"&gt;
+	&lt;div class="modal-dialog modal-dialog-centered"&gt;
+		&lt;div class="modal-content"&gt;
+			&lt;div class="modal-body"&gt;
+				&lt;button aria-label="Close" class="close" data-dismiss="modal" type="button"&gt;
+					&lt;span aria-hidden="true"&gt;×&lt;/span&gt;
+				&lt;/button&gt;
+				&lt;div class="digigold-reminder-detail"&gt;
+					&lt;div class="image-content"&gt;
+						&lt;img alt="digi-gold-reminder" src="images/slot/mia-discount.jpg?$staticlink$" title="" /&gt;
+					&lt;/div&gt;
+					&lt;div class="text-content"&gt;
+						&lt;p&gt;Get
+							&lt;span&gt;Additional 3%*&lt;/span&gt; discount while redeeming your DigiGold with
+							&lt;br&gt;Mia.&lt;/p&gt;
+&lt;a class="btn primary-btn" href="$url('Search-Show','cgid','mi-jewellery-category')$"&gt;Shop now&lt;/a&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+    </slot-configuration>
+
+    <slot-configuration slot-id="mobile-menu-slot" context="global" configuration-id="welcome" assigned-to-site="true">
+        <template>slots/html/htmlSlotContainerSmall.isml</template>
+        <enabled-flag>true</enabled-flag>
+        <content>
+            <html>
+                <body xml:lang="x-default">&lt;div class="col-12 pl-4 pr-0"&gt;
+    &lt;p class="text-header-menu-1 m-0"&gt;Welcome&lt;/p&gt;
+    &lt;p class="text-header-menu-1 m-0"&gt;To Tanishq&lt;/p&gt;
+&lt;/div&gt;</body>
+            </html>
+        </content>
+        <customer-groups>
+            <customer-group group-id="Registered"/>
+        </customer-groups>
+    </slot-configuration>
+
+</slot-configurations>

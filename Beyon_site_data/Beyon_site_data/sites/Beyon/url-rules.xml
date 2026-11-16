@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<url-rules xmlns="http://www.demandware.com/xml/impex/urlrules/2012-12-01">
+    <general-settings>
+        <lower-case-urls>true</lower-case-urls>
+        <blank-substitute>-</blank-substitute>
+        <character-replacements-enabled>true</character-replacements-enabled>
+        <character-replacements-for-page-url-enabled>true</character-replacements-for-page-url-enabled>
+    </general-settings>
+    <locale-settings>
+        <type>path</type>
+    </locale-settings>
+    <category-rule>[ category-path, [ attribute, displayName ], / ]</category-rule>
+    <category-page-url-override>true</category-page-url-override>
+    <category-trailing-slash>false</category-trailing-slash>
+    <category-offline-url-generation>true</category-offline-url-generation>
+    <category-search-refinement-url-enabled>true</category-search-refinement-url-enabled>
+    <product-rule>[ attribute, name ]</product-rule>
+    <product-page-url-override>true</product-page-url-override>
+    <product-id-separator>/</product-id-separator>
+    <folder-rule>[ attribute, displayName ]</folder-rule>
+    <folder-page-url-override>true</folder-page-url-override>
+    <folder-trailing-slash>false</folder-trailing-slash>
+    <folder-offline-url-generation>true</folder-offline-url-generation>
+    <folder-search-refinement-url-enabled>true</folder-search-refinement-url-enabled>
+    <content-rule>[ folder ]</content-rule>
+    <content-page-url-override>true</content-page-url-override>
+    <content-id-separator>/</content-id-separator>
+    <pipeline-aliases xml:lang="x-default">
+        <pipeline-alias pipeline="Order-TrackGuestOrder">order/track</pipeline-alias>
+        <pipeline-alias pipeline="Home-Show">homepage,null</pipeline-alias>
+        <pipeline-alias pipeline="DigiGoldDashBoard-DigiGoldDashboard">digigold/mylocker</pipeline-alias>
+        <pipeline-alias pipeline="DigiGold-TermsCondition">digital-gold-terms</pipeline-alias>
+        <pipeline-alias pipeline="Appointment-Form">book-an-appointment</pipeline-alias>
+        <pipeline-alias pipeline="Order-Confirm">order</pipeline-alias>
+        <pipeline-alias pipeline="Account-Show">account</pipeline-alias>
+        <pipeline-alias pipeline="Blog-Details">blog/article</pipeline-alias>
+        <pipeline-alias pipeline="Blog-Categories">blog</pipeline-alias>
+        <pipeline-alias pipeline="Cart-Show">cart</pipeline-alias>
+        <pipeline-alias pipeline="DigiGold-Buy">digigold/buy</pipeline-alias>
+        <pipeline-alias pipeline="Stores-StoreDetail">store-locator/store-details</pipeline-alias>
+        <pipeline-alias pipeline="Checkout-Begin">checkout</pipeline-alias>
+        <pipeline-alias pipeline="DigiGold-Sell">digigold/sell</pipeline-alias>
+        <pipeline-alias pipeline="Page-LoyaltyProgram">loyalty-program</pipeline-alias>
+        <pipeline-alias pipeline="Page-Show">page</pipeline-alias>
+        <pipeline-alias pipeline="Blog-All">blog/all</pipeline-alias>
+        <pipeline-alias pipeline="Blog-List">blog/beginner-guide,blog/festivals-celebrations,blog/gifting,blog/latest-trending,blog/mia-collections,blog/styling-tips-guides</pipeline-alias>
+        <pipeline-alias pipeline="DigiGold-Show">digigold/home</pipeline-alias>
+        <pipeline-alias pipeline="DigiGold-Faq">digigold/faq</pipeline-alias>
+        <pipeline-alias pipeline="Page-CyberSecurityPolicy">cyber-security-policy</pipeline-alias>
+        <pipeline-alias pipeline="Login-Show">login</pipeline-alias>
+        <pipeline-alias pipeline="Search-Show">search</pipeline-alias>
+        <pipeline-alias pipeline="Stores-Find">store-locator/find</pipeline-alias>
+        <pipeline-alias pipeline="Page-LegalPolicies">content/privacy-policy</pipeline-alias>
+        <pipeline-alias pipeline="Page-HelpAndFAQ">help-faqs</pipeline-alias>
+        <pipeline-alias pipeline="DigiGold-Exchange">digigold/exchange</pipeline-alias>
+    </pipeline-aliases>
+    <pipeline-trailing-slash>false</pipeline-trailing-slash>
+    <pipeline-perform-redirect>false</pipeline-perform-redirect>
+    <character-replacements xml:lang="x-default">
+        <character-replacement>
+            <character>&amp;</character>
+            <replacement>and</replacement>
+        </character-replacement>
+        <character-replacement>
+            <character>'</character>
+            <replacement/>
+        </character-replacement>
+    </character-replacements>
+    <search-refinement-url-settings>
+        <position>after</position>
+        <segment-delimiter>slash</segment-delimiter>
+        <refinements-delimiter>slash</refinements-delimiter>
+        <value-delimiter>plus</value-delimiter>
+        <conflicting-value-delimiter>blank</conflicting-value-delimiter>
+        <exclude-pipeline-alias-type>none</exclude-pipeline-alias-type>
+        <product-name-identifier>prefn</product-name-identifier>
+        <product-value-identifier>prefv</product-value-identifier>
+        <content-name-identifier>crefn</content-name-identifier>
+        <content-value-identifier>crefv</content-value-identifier>
+    </search-refinement-url-settings>
+</url-rules>
+

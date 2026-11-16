@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shipping xmlns="http://www.demandware.com/xml/impex/shipping/2007-03-31">
+    <shipping-method method-id="tanishq_shipment_de" default="false">
+        <display-name xml:lang="x-default">Tanishq Shipment Germany</display-name>
+        <online-flag>true</online-flag>
+        <price-table>
+            <amount order-value="0">50</amount>
+        </price-table>
+        <excluded-addresses>
+            <included-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>is-not-equal</operator>
+                        <string>DE</string>
+                    </condition>
+                </condition-group>
+            </included-addresses>
+        </excluded-addresses>
+        <custom-attributes>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+        </custom-attributes>
+        <currency>USD</currency>
+    </shipping-method>
+
+    <shipping-method method-id="tanishq_shipment_bh" default="false">
+        <display-name xml:lang="x-default">Tanishq Shipment Bahrain</display-name>
+        <online-flag>true</online-flag>
+        <price-table>
+            <amount order-value="0">50</amount>
+        </price-table>
+        <excluded-addresses>
+            <included-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>is-not-equal</operator>
+                        <string>BH</string>
+                    </condition>
+                </condition-group>
+            </included-addresses>
+        </excluded-addresses>
+        <custom-attributes>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+        </custom-attributes>
+        <currency>USD</currency>
+    </shipping-method>
+
+    <shipping-method method-id="tanishq_shipment_ca" default="false">
+        <display-name xml:lang="x-default">Tanishq Shipment Canada</display-name>
+        <online-flag>true</online-flag>
+        <price-table>
+            <amount order-value="0">50</amount>
+        </price-table>
+        <excluded-addresses>
+            <included-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>exists</operator>
+                    </condition>
+                </condition-group>
+            </included-addresses>
+            <excluded-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>is-equal</operator>
+                        <string>CA</string>
+                    </condition>
+                </condition-group>
+            </excluded-addresses>
+        </excluded-addresses>
+        <custom-attributes>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+        </custom-attributes>
+        <currency>USD</currency>
+    </shipping-method>
+
+    <shipping-method method-id="tanishq_shipment_ke" default="false">
+        <display-name xml:lang="x-default">Tanishq Shipment Kenya</display-name>
+        <online-flag>true</online-flag>
+        <price-table>
+            <amount order-value="0">50</amount>
+        </price-table>
+        <excluded-addresses>
+            <included-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>is-not-equal</operator>
+                        <string>KE</string>
+                    </condition>
+                </condition-group>
+            </included-addresses>
+        </excluded-addresses>
+        <custom-attributes>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+        </custom-attributes>
+        <currency>USD</currency>
+    </shipping-method>
+
+    <shipping-method method-id="tanishq_shipment_kw" default="false">
+        <display-name xml:lang="x-default">Tanishq Shipment Kuwait</display-name>
+        <online-flag>true</online-flag>
+        <price-table>
+            <amount order-value="0">50</amount>
+        </price-table>
+        <excluded-addresses>
+            <included-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>is-not-equal</operator>
+                        <string>KW</string>
+                    </condition>
+                </condition-group>
+            </included-addresses>
+        </excluded-addresses>
+        <custom-attributes>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+        </custom-attributes>
+        <currency>USD</currency>
+    </shipping-method>
+
+    <shipping-method method-id="tanishq_shipment_my" default="false">
+        <display-name xml:lang="x-default">Tanishq Shipment Malaysia</display-name>
+        <online-flag>true</online-flag>
+        <price-table>
+            <amount order-value="0">50</amount>
+        </price-table>
+        <excluded-addresses>
+            <included-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>exists</operator>
+                    </condition>
+                </condition-group>
+            </included-addresses>
+            <excluded-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>is-equal</operator>
+                        <string>MY</string>
+                    </condition>
+                </condition-group>
+            </excluded-addresses>
+        </excluded-addresses>
+        <custom-attributes>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+        </custom-attributes>
+        <currency>USD</currency>
+    </shipping-method>
+
+    <shipping-method method-id="tanishq_shipment_nz" default="false">
+        <display-name xml:lang="x-default">Tanishq Shipment New Zealand</display-name>
+        <online-flag>true</online-flag>
+        <price-table>
+            <amount order-value="0">50</amount>
+        </price-table>
+        <excluded-addresses>
+            <included-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>is-not-equal</operator>
+                        <string>NZ</string>
+                    </condition>
+                </condition-group>
+            </included-addresses>
+        </excluded-addresses>
+        <custom-attributes>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+        </custom-attributes>
+        <currency>USD</currency>
+    </shipping-method>
+
+    <shipping-method method-id="tanishq_shipment_om" default="false">
+        <display-name xml:lang="x-default">Tanishq Shipment Oman</display-name>
+        <online-flag>true</online-flag>
+        <price-table>
+            <amount order-value="0">50</amount>
+        </price-table>
+        <excluded-addresses>
+            <included-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>exists</operator>
+                    </condition>
+                </condition-group>
+            </included-addresses>
+            <excluded-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>is-equal</operator>
+                        <string>OM</string>
+                    </condition>
+                </condition-group>
+            </excluded-addresses>
+        </excluded-addresses>
+        <custom-attributes>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+        </custom-attributes>
+        <currency>USD</currency>
+    </shipping-method>
+
+    <shipping-method method-id="tanishq_shipment_ro" default="false">
+        <display-name xml:lang="x-default">Tanishq Shipment Romania</display-name>
+        <online-flag>true</online-flag>
+        <price-table>
+            <amount order-value="0">50</amount>
+        </price-table>
+        <excluded-addresses>
+            <included-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>is-not-equal</operator>
+                        <string>RO</string>
+                    </condition>
+                </condition-group>
+            </included-addresses>
+        </excluded-addresses>
+        <custom-attributes>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+        </custom-attributes>
+        <currency>USD</currency>
+    </shipping-method>
+
+    <shipping-method method-id="tanishq_shipment_pt" default="false">
+        <display-name xml:lang="x-default">Tanishq Shipment Portugal</display-name>
+        <online-flag>true</online-flag>
+        <price-table>
+            <amount order-value="0">50</amount>
+        </price-table>
+        <excluded-addresses>
+            <included-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>is-not-equal</operator>
+                        <string>PT</string>
+                    </condition>
+                </condition-group>
+            </included-addresses>
+        </excluded-addresses>
+        <custom-attributes>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+        </custom-attributes>
+        <currency>USD</currency>
+    </shipping-method>
+
+    <shipping-method method-id="tanishq_shipment_qa" default="false">
+        <display-name xml:lang="x-default">Tanishq Shipment Qatar</display-name>
+        <online-flag>true</online-flag>
+        <price-table>
+            <amount order-value="0">50</amount>
+        </price-table>
+        <excluded-addresses>
+            <included-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>is-not-equal</operator>
+                        <string>QA</string>
+                    </condition>
+                </condition-group>
+            </included-addresses>
+        </excluded-addresses>
+        <custom-attributes>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+        </custom-attributes>
+        <currency>USD</currency>
+    </shipping-method>
+
+    <shipping-method method-id="tanishq_shipment_sa" default="false">
+        <display-name xml:lang="x-default">Tanishq Shipment Saudi Arabia</display-name>
+        <online-flag>true</online-flag>
+        <price-table>
+            <amount order-value="0">50</amount>
+        </price-table>
+        <excluded-addresses>
+            <included-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>exists</operator>
+                    </condition>
+                </condition-group>
+            </included-addresses>
+            <excluded-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>is-equal</operator>
+                        <string>SA</string>
+                    </condition>
+                </condition-group>
+            </excluded-addresses>
+        </excluded-addresses>
+        <custom-attributes>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+        </custom-attributes>
+        <currency>USD</currency>
+    </shipping-method>
+
+    <shipping-method method-id="tanishq_shipment_za" default="false">
+        <display-name xml:lang="x-default">Tanishq Shipment South Africa</display-name>
+        <online-flag>true</online-flag>
+        <price-table>
+            <amount order-value="0">50</amount>
+        </price-table>
+        <excluded-addresses>
+            <included-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>is-not-equal</operator>
+                        <string>ZA</string>
+                    </condition>
+                </condition-group>
+            </included-addresses>
+        </excluded-addresses>
+        <custom-attributes>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+        </custom-attributes>
+        <currency>USD</currency>
+    </shipping-method>
+
+    <shipping-method method-id="tanishq_shipment_es" default="false">
+        <display-name xml:lang="x-default">Tanishq Shipment Spain</display-name>
+        <online-flag>true</online-flag>
+        <price-table>
+            <amount order-value="0">50</amount>
+        </price-table>
+        <excluded-addresses>
+            <included-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>is-not-equal</operator>
+                        <string>ES</string>
+                    </condition>
+                </condition-group>
+            </included-addresses>
+        </excluded-addresses>
+        <custom-attributes>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+        </custom-attributes>
+        <currency>USD</currency>
+    </shipping-method>
+
+    <shipping-method method-id="tanishq_shipment_ae" default="false">
+        <display-name xml:lang="x-default">Tanishq Shipment UAE</display-name>
+        <online-flag>true</online-flag>
+        <price-table>
+            <amount order-value="0">50</amount>
+        </price-table>
+        <excluded-addresses>
+            <included-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>exists</operator>
+                    </condition>
+                </condition-group>
+            </included-addresses>
+            <excluded-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>is-equal</operator>
+                        <string>AE</string>
+                    </condition>
+                </condition-group>
+            </excluded-addresses>
+        </excluded-addresses>
+        <custom-attributes>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+        </custom-attributes>
+        <currency>USD</currency>
+    </shipping-method>
+
+    <shipping-method method-id="tanishq_shipment_gb" default="false">
+        <display-name xml:lang="x-default">Tanishq Shipment United Kingdom</display-name>
+        <online-flag>true</online-flag>
+        <price-table>
+            <amount order-value="0">50</amount>
+        </price-table>
+        <excluded-addresses>
+            <included-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>exists</operator>
+                    </condition>
+                </condition-group>
+            </included-addresses>
+            <excluded-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>is-equal</operator>
+                        <string>GB</string>
+                    </condition>
+                </condition-group>
+            </excluded-addresses>
+        </excluded-addresses>
+        <custom-attributes>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+        </custom-attributes>
+        <currency>USD</currency>
+    </shipping-method>
+
+    <shipping-method method-id="tanishq_shipment_domestic" default="true">
+        <display-name xml:lang="x-default">Tanishq Shipment Domestic</display-name>
+        <online-flag>true</online-flag>
+        <price-table>
+            <amount order-value="0">0</amount>
+        </price-table>
+        <custom-attributes>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+        </custom-attributes>
+        <currency>INR</currency>
+    </shipping-method>
+
+    <shipping-method method-id="tanishq_shipment_au" default="false">
+        <display-name xml:lang="x-default">Tanishq Shipment Australia</display-name>
+        <online-flag>true</online-flag>
+        <price-table>
+            <amount order-value="0">50</amount>
+        </price-table>
+        <excluded-addresses>
+            <included-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>is-not-equal</operator>
+                        <string>AU</string>
+                    </condition>
+                </condition-group>
+            </included-addresses>
+        </excluded-addresses>
+        <custom-attributes>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+        </custom-attributes>
+        <currency>USD</currency>
+    </shipping-method>
+
+    <shipping-method method-id="tanishq_shipment_it" default="false">
+        <display-name xml:lang="x-default">Tanishq Shipment Italy</display-name>
+        <online-flag>true</online-flag>
+        <price-table>
+            <amount order-value="0">50</amount>
+        </price-table>
+        <excluded-addresses>
+            <included-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>is-not-equal</operator>
+                        <string>IT</string>
+                    </condition>
+                </condition-group>
+            </included-addresses>
+        </excluded-addresses>
+        <custom-attributes>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+        </custom-attributes>
+        <currency>USD</currency>
+    </shipping-method>
+
+    <shipping-method method-id="tanishq_shipment_nl" default="false">
+        <display-name xml:lang="x-default">Tanishq Shipment Netherlands</display-name>
+        <online-flag>true</online-flag>
+        <price-table>
+            <amount order-value="0">50</amount>
+        </price-table>
+        <excluded-addresses>
+            <included-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>is-not-equal</operator>
+                        <string>NL</string>
+                    </condition>
+                </condition-group>
+            </included-addresses>
+        </excluded-addresses>
+        <custom-attributes>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+        </custom-attributes>
+        <currency>USD</currency>
+    </shipping-method>
+
+    <shipping-method method-id="tanishq_shipment_sg" default="false">
+        <display-name xml:lang="x-default">Tanishq Shipment Singapore</display-name>
+        <online-flag>true</online-flag>
+        <price-table>
+            <amount order-value="0">50</amount>
+        </price-table>
+        <excluded-addresses>
+            <included-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>is-not-equal</operator>
+                        <string>SG</string>
+                    </condition>
+                </condition-group>
+            </included-addresses>
+        </excluded-addresses>
+        <custom-attributes>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+        </custom-attributes>
+        <currency>USD</currency>
+    </shipping-method>
+
+    <shipping-method method-id="tanishq_shipment_us" default="false">
+        <display-name xml:lang="x-default">Tanishq Shipment United States</display-name>
+        <online-flag>true</online-flag>
+        <price-table>
+            <amount order-value="0">50</amount>
+        </price-table>
+        <excluded-products>
+            <included-products>
+                <condition-group>
+                    <attribute-condition operator="exists" attribute-id="pricingGroupType"/>
+                    <attribute-condition operator="equals" attribute-id="pricingGroupType">
+                        <attribute-value>GOLDPLAIN</attribute-value>
+                    </attribute-condition>
+                </condition-group>
+                <condition-group>
+                    <attribute-condition operator="contains" attribute-id="CFAProductCode">
+                        <attribute-value>LB</attribute-value>
+                    </attribute-condition>
+                </condition-group>
+            </included-products>
+        </excluded-products>
+        <excluded-addresses>
+            <included-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>exists</operator>
+                    </condition>
+                </condition-group>
+            </included-addresses>
+            <excluded-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>is-equal</operator>
+                        <string>US</string>
+                    </condition>
+                </condition-group>
+            </excluded-addresses>
+        </excluded-addresses>
+        <custom-attributes>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+        </custom-attributes>
+        <currency>USD</currency>
+    </shipping-method>
+
+    <shipping-method method-id="tanishq_shipment_int_default" default="true">
+        <display-name xml:lang="x-default">Tanishq Shipment International</display-name>
+        <online-flag>true</online-flag>
+        <price-table>
+            <amount order-value="0">0</amount>
+        </price-table>
+        <excluded-products>
+            <included-products>
+                <condition-group>
+                    <attribute-condition operator="exists" attribute-id="pricingGroupType"/>
+                    <attribute-condition operator="equals" attribute-id="pricingGroupType">
+                        <attribute-value>GOLDPLAIN</attribute-value>
+                    </attribute-condition>
+                </condition-group>
+            </included-products>
+        </excluded-products>
+        <excluded-addresses>
+            <included-addresses>
+                <condition-group match-mode="all">
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>exists</operator>
+                    </condition>
+                    <condition>
+                        <attribute-path>shipment.shippingAddress.countryCode</attribute-path>
+                        <operator>is-equal</operator>
+                        <string>US</string>
+                    </condition>
+                </condition-group>
+            </included-addresses>
+        </excluded-addresses>
+        <custom-attributes>
+            <custom-attribute attribute-id="storePickupEnabled">false</custom-attribute>
+        </custom-attributes>
+        <currency>USD</currency>
+    </shipping-method>
+
+</shipping>

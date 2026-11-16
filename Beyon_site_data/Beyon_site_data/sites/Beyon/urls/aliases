@@ -1,0 +1,14 @@
+{
+	"__version": "1",
+	"settings": {
+		"http-host": "dev2.beyon.co.in",
+		"https-host": "dev2.beyon.co.in"
+	},
+	"dev2.beyon.co.in": [
+		{
+			"pipeline": "Home-Show",
+			"path": "/",
+			"apply-to-host-only-request-with-params": "true"
+		}
+	]
+}
